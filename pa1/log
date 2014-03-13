@@ -1,0 +1,15 @@
+130>>sample: sumList 1 [pass] (1)
+130>>sample: sumList 2 [pass] (1)
+130>>sample: sumList 3 [pass] (1)
+130>>sample: digitsOfInt 1 [pass] (1)
+130>>sample: digitsOfInt 2 [pass] (1)
+130>>sample: digits 1 [pass] (1)
+130>>sample: digits 2 [pass] (1)
+130>>sample: additivePersistence1 [pass] (1)
+130>>sample: digitalRoot [pass] (1)
+130>>sample: reverse 1 [pass] (1)
+130>>sample: rev 2 [pass] (1)
+130>>sample: palindrome 1 [pass] (1)
+130>>sample: palindrome 2 [pass] (1)
+130>>Results: Score/Max = 13 / 13 
+130>>Compiled

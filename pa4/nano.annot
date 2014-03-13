@@ -1,0 +1,4926 @@
+"nano.ml" 41 705 709 "nano.ml" 41 705 717
+type(
+  binary_operator -> string
+)
+ident(
+  def strBinOp "nano.ml" 55 927 927 --
+)
+"nano.ml" 43 757 761 "nano.ml" 43 757 765
+type(
+  binary_operator
+)
+"nano.ml" 43 757 769 "nano.ml" 43 757 772
+type(
+  string
+)
+"nano.ml" 44 773 777 "nano.ml" 44 773 782
+type(
+  binary_operator
+)
+"nano.ml" 44 773 786 "nano.ml" 44 773 789
+type(
+  string
+)
+"nano.ml" 45 790 794 "nano.ml" 45 790 797
+type(
+  binary_operator
+)
+"nano.ml" 45 790 801 "nano.ml" 45 790 804
+type(
+  string
+)
+"nano.ml" 46 805 809 "nano.ml" 46 805 812
+type(
+  binary_operator
+)
+"nano.ml" 46 805 816 "nano.ml" 46 805 819
+type(
+  string
+)
+"nano.ml" 47 820 824 "nano.ml" 47 820 826
+type(
+  binary_operator
+)
+"nano.ml" 47 820 830 "nano.ml" 47 820 833
+type(
+  string
+)
+"nano.ml" 48 834 838 "nano.ml" 48 834 840
+type(
+  binary_operator
+)
+"nano.ml" 48 834 844 "nano.ml" 48 834 848
+type(
+  string
+)
+"nano.ml" 49 849 853 "nano.ml" 49 849 855
+type(
+  binary_operator
+)
+"nano.ml" 49 849 859 "nano.ml" 49 849 862
+type(
+  string
+)
+"nano.ml" 50 863 867 "nano.ml" 50 863 869
+type(
+  binary_operator
+)
+"nano.ml" 50 863 873 "nano.ml" 50 863 877
+type(
+  string
+)
+"nano.ml" 51 878 882 "nano.ml" 51 878 885
+type(
+  binary_operator
+)
+"nano.ml" 51 878 889 "nano.ml" 51 878 893
+type(
+  string
+)
+"nano.ml" 52 894 898 "nano.ml" 52 894 900
+type(
+  binary_operator
+)
+"nano.ml" 52 894 904 "nano.ml" 52 894 908
+type(
+  string
+)
+"nano.ml" 53 909 913 "nano.ml" 53 909 917
+type(
+  binary_operator
+)
+"nano.ml" 53 909 921 "nano.ml" 53 909 925
+type(
+  string
+)
+"nano.ml" 42 748 748 "nano.ml" 53 909 925
+type(
+  binary_operator -> string
+)
+type(
+  binary_operator -> string
+)
+"nano.ml" 55 927 931 "nano.ml" 55 927 934
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  def spr "nano.ml" 57 953 953 --
+)
+"nano.ml" 55 927 937 "nano.ml" 55 927 951
+type(
+  ('a, unit, string) format -> 'a
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"nano.ml" 57 953 957 "nano.ml" 57 953 963
+type(
+  int -> string
+)
+ident(
+  def indent "nano.ml" 59 993 993 --
+)
+"nano.ml" 57 953 964 "nano.ml" 57 953 965
+type(
+  int
+)
+ident(
+  def k "nano.ml" 57 953 968 "nano.ml" 57 953 991
+)
+"nano.ml" 57 953 968 "nano.ml" 57 953 979
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"nano.ml" 57 953 981 "nano.ml" 57 953 982
+type(
+  int
+)
+"nano.ml" 57 953 983 "nano.ml" 57 953 984
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"nano.ml" 57 953 985 "nano.ml" 57 953 986
+type(
+  int
+)
+ident(
+  int_ref k "nano.ml" 57 953 964 "nano.ml" 57 953 965
+)
+"nano.ml" 57 953 980 "nano.ml" 57 953 987
+type(
+  int
+)
+"nano.ml" 57 953 988 "nano.ml" 57 953 991
+type(
+  char
+)
+"nano.ml" 57 953 968 "nano.ml" 57 953 991
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 59 993 1001 "nano.ml" 59 993 1009
+type(
+  value -> string
+)
+ident(
+  def strValue "nano.ml" 59 993 993 --
+)
+"nano.ml" 61 1039 1048 "nano.ml" 61 1039 1049
+type(
+  int
+)
+ident(
+  def i "nano.ml" 61 1039 1053 "nano.ml" 61 1039 1063
+)
+"nano.ml" 61 1039 1043 "nano.ml" 61 1039 1049
+type(
+  value
+)
+"nano.ml" 61 1039 1053 "nano.ml" 61 1039 1056
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 61 1039 1057 "nano.ml" 61 1039 1061
+type(
+  (int -> string, unit, string) format
+)
+"nano.ml" 61 1039 1062 "nano.ml" 61 1039 1063
+type(
+  int
+)
+ident(
+  int_ref i "nano.ml" 61 1039 1048 "nano.ml" 61 1039 1049
+)
+"nano.ml" 61 1039 1053 "nano.ml" 61 1039 1063
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 62 1064 1074 "nano.ml" 62 1064 1075
+type(
+  bool
+)
+ident(
+  def b "nano.ml" 62 1064 1079 "nano.ml" 62 1064 1089
+)
+"nano.ml" 62 1064 1068 "nano.ml" 62 1064 1075
+type(
+  value
+)
+"nano.ml" 62 1064 1079 "nano.ml" 62 1064 1082
+type(
+  (bool -> string, unit, string) format -> bool -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 62 1064 1083 "nano.ml" 62 1064 1087
+type(
+  (bool -> string, unit, string) format
+)
+"nano.ml" 62 1064 1088 "nano.ml" 62 1064 1089
+type(
+  bool
+)
+ident(
+  int_ref b "nano.ml" 62 1064 1074 "nano.ml" 62 1064 1075
+)
+"nano.ml" 62 1064 1079 "nano.ml" 62 1064 1089
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 63 1090 1094 "nano.ml" 63 1090 1098
+type(
+  value
+)
+"nano.ml" 63 1090 1102 "nano.ml" 63 1090 1106
+type(
+  string
+)
+"nano.ml" 64 1107 1118 "nano.ml" 64 1107 1120
+type(
+  value
+)
+ident(
+  def v1 "nano.ml" 64 1107 1129 "nano.ml" 64 1107 1171
+)
+"nano.ml" 64 1107 1122 "nano.ml" 64 1107 1124
+type(
+  value
+)
+ident(
+  def v2 "nano.ml" 64 1107 1129 "nano.ml" 64 1107 1171
+)
+"nano.ml" 64 1107 1111 "nano.ml" 64 1107 1125
+type(
+  value
+)
+"nano.ml" 64 1107 1129 "nano.ml" 64 1107 1132
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 64 1107 1133 "nano.ml" 64 1107 1143
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 64 1107 1145 "nano.ml" 64 1107 1153
+type(
+  value -> string
+)
+ident(
+  int_ref strValue "nano.ml" 59 993 1001 "nano.ml" 59 993 1009
+)
+"nano.ml" 64 1107 1154 "nano.ml" 64 1107 1156
+type(
+  value
+)
+ident(
+  int_ref v1 "nano.ml" 64 1107 1118 "nano.ml" 64 1107 1120
+)
+"nano.ml" 64 1107 1144 "nano.ml" 64 1107 1157
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 64 1107 1159 "nano.ml" 64 1107 1167
+type(
+  value -> string
+)
+ident(
+  int_ref strValue "nano.ml" 59 993 1001 "nano.ml" 59 993 1009
+)
+"nano.ml" 64 1107 1168 "nano.ml" 64 1107 1170
+type(
+  value
+)
+ident(
+  int_ref v2 "nano.ml" 64 1107 1122 "nano.ml" 64 1107 1124
+)
+"nano.ml" 64 1107 1158 "nano.ml" 64 1107 1171
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 64 1107 1129 "nano.ml" 64 1107 1171
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 65 1173 1187 "nano.ml" 65 1173 1190
+type(
+  env
+)
+ident(
+  def env "nano.ml" 66 1206 1212 "nano.ml" 69 1307 1364
+)
+"nano.ml" 65 1173 1192 "nano.ml" 65 1173 1194
+type(
+  string option
+)
+ident(
+  def fo "nano.ml" 66 1206 1212 "nano.ml" 69 1307 1364
+)
+"nano.ml" 65 1173 1196 "nano.ml" 65 1173 1197
+type(
+  string
+)
+ident(
+  def x "nano.ml" 66 1206 1212 "nano.ml" 69 1307 1364
+)
+"nano.ml" 65 1173 1199 "nano.ml" 65 1173 1200
+type(
+  expr
+)
+ident(
+  def e "nano.ml" 66 1206 1212 "nano.ml" 69 1307 1364
+)
+"nano.ml" 65 1173 1177 "nano.ml" 65 1173 1201
+type(
+  value
+)
+"nano.ml" 66 1206 1216 "nano.ml" 66 1206 1218
+type(
+  string
+)
+"nano.ml" 66 1206 1227 "nano.ml" 66 1206 1229
+type(
+  string option
+)
+ident(
+  int_ref fo "nano.ml" 65 1173 1192 "nano.ml" 65 1173 1194
+)
+"nano.ml" 67 1235 1245 "nano.ml" 67 1235 1249
+type(
+  string option
+)
+"nano.ml" 67 1235 1255 "nano.ml" 67 1235 1266
+type(
+  string
+)
+"nano.ml" 68 1267 1282 "nano.ml" 68 1267 1283
+type(
+  string
+)
+ident(
+  def f "nano.ml" 68 1267 1287 "nano.ml" 68 1267 1303
+)
+"nano.ml" 68 1267 1277 "nano.ml" 68 1267 1283
+type(
+  string option
+)
+"nano.ml" 68 1267 1287 "nano.ml" 68 1267 1290
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 68 1267 1291 "nano.ml" 68 1267 1301
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 68 1267 1302 "nano.ml" 68 1267 1303
+type(
+  string
+)
+ident(
+  int_ref f "nano.ml" 68 1267 1282 "nano.ml" 68 1267 1283
+)
+"nano.ml" 68 1267 1287 "nano.ml" 68 1267 1303
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 66 1206 1221 "nano.ml" 68 1267 1303
+type(
+  string
+)
+"nano.ml" 69 1307 1313 "nano.ml" 69 1307 1316
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 69 1307 1317 "nano.ml" 69 1307 1332
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"nano.ml" 69 1307 1334 "nano.ml" 69 1307 1340
+type(
+  env -> string
+)
+ident(
+  int_ref strEnv "nano.ml" 71 1366 1370 "nano.ml" 71 1366 1376
+)
+"nano.ml" 69 1307 1341 "nano.ml" 69 1307 1344
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 65 1173 1187 "nano.ml" 65 1173 1190
+)
+"nano.ml" 69 1307 1333 "nano.ml" 69 1307 1345
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 69 1307 1346 "nano.ml" 69 1307 1348
+type(
+  string
+)
+ident(
+  int_ref fs "nano.ml" 66 1206 1216 "nano.ml" 66 1206 1218
+)
+"nano.ml" 69 1307 1349 "nano.ml" 69 1307 1350
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 65 1173 1196 "nano.ml" 65 1173 1197
+)
+"nano.ml" 69 1307 1352 "nano.ml" 69 1307 1359
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 69 1307 1360 "nano.ml" 69 1307 1361
+type(
+  int
+)
+"nano.ml" 69 1307 1362 "nano.ml" 69 1307 1363
+type(
+  expr
+)
+ident(
+  int_ref e "nano.ml" 65 1173 1199 "nano.ml" 65 1173 1200
+)
+"nano.ml" 69 1307 1351 "nano.ml" 69 1307 1364
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 69 1307 1313 "nano.ml" 69 1307 1364
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 66 1206 1212 "nano.ml" 69 1307 1364
+type(
+  string
+)
+"nano.ml" 60 1030 1030 "nano.ml" 69 1307 1364
+type(
+  value -> string
+)
+type(
+  value -> string
+)
+"nano.ml" 71 1366 1370 "nano.ml" 71 1366 1376
+type(
+  env -> string
+)
+ident(
+  def strEnv "nano.ml" 59 993 993 --
+)
+"nano.ml" 72 1395 1399 "nano.ml" 72 1395 1402
+type(
+  env
+)
+ident(
+  def env "nano.ml" 73 1406 1408 "nano.ml" 74 1475 1510
+)
+"nano.ml" 73 1406 1412 "nano.ml" 73 1406 1414
+type(
+  string list
+)
+"nano.ml" 73 1406 1417 "nano.ml" 73 1406 1425
+type(
+  (string * value -> string) -> env -> string list
+)
+ident(
+  ext_ref List.map
+)
+"nano.ml" 73 1406 1432 "nano.ml" 73 1406 1433
+type(
+  string
+)
+ident(
+  def x "nano.ml" 73 1406 1440 "nano.ml" 73 1406 1466
+)
+"nano.ml" 73 1406 1434 "nano.ml" 73 1406 1435
+type(
+  value
+)
+ident(
+  def v "nano.ml" 73 1406 1440 "nano.ml" 73 1406 1466
+)
+"nano.ml" 73 1406 1431 "nano.ml" 73 1406 1436
+type(
+  string * value
+)
+"nano.ml" 73 1406 1440 "nano.ml" 73 1406 1443
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 73 1406 1444 "nano.ml" 73 1406 1451
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 73 1406 1452 "nano.ml" 73 1406 1453
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 73 1406 1432 "nano.ml" 73 1406 1433
+)
+"nano.ml" 73 1406 1455 "nano.ml" 73 1406 1463
+type(
+  value -> string
+)
+ident(
+  int_ref strValue "nano.ml" 59 993 1001 "nano.ml" 59 993 1009
+)
+"nano.ml" 73 1406 1464 "nano.ml" 73 1406 1465
+type(
+  value
+)
+ident(
+  int_ref v "nano.ml" 73 1406 1434 "nano.ml" 73 1406 1435
+)
+"nano.ml" 73 1406 1454 "nano.ml" 73 1406 1466
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 73 1406 1440 "nano.ml" 73 1406 1466
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 73 1406 1426 "nano.ml" 73 1406 1467
+type(
+  string * value -> string
+)
+"nano.ml" 73 1406 1468 "nano.ml" 73 1406 1471
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 72 1395 1399 "nano.ml" 72 1395 1402
+)
+"nano.ml" 73 1406 1417 "nano.ml" 73 1406 1471
+call(
+  stack
+)
+type(
+  string list
+)
+"nano.ml" 74 1475 1477 "nano.ml" 74 1475 1480
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 74 1475 1481 "nano.ml" 74 1475 1487
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 74 1475 1489 "nano.ml" 74 1475 1502
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"nano.ml" 74 1475 1503 "nano.ml" 74 1475 1506
+type(
+  string
+)
+"nano.ml" 74 1475 1507 "nano.ml" 74 1475 1509
+type(
+  string list
+)
+ident(
+  int_ref xs "nano.ml" 73 1406 1412 "nano.ml" 73 1406 1414
+)
+"nano.ml" 74 1475 1488 "nano.ml" 74 1475 1510
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 74 1475 1477 "nano.ml" 74 1475 1510
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 73 1406 1408 "nano.ml" 74 1475 1510
+type(
+  string
+)
+"nano.ml" 72 1395 1395 "nano.ml" 74 1475 1510
+type(
+  env -> string
+)
+type(
+  env -> string
+)
+"nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+type(
+  int -> expr -> string
+)
+ident(
+  def strExpr "nano.ml" 59 993 993 --
+)
+"nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+type(
+  int
+)
+ident(
+  def depth "nano.ml" 77 1550 1560 "nano.ml" 111 2782 2852
+)
+"nano.ml" 77 1550 1560 "nano.ml" 77 1550 1561
+type(
+  expr
+)
+ident(
+  def e "nano.ml" 77 1550 1565 "nano.ml" 111 2782 2852
+)
+"nano.ml" 77 1550 1571 "nano.ml" 77 1550 1572
+type(
+  expr
+)
+ident(
+  int_ref e "nano.ml" 77 1550 1560 "nano.ml" 77 1550 1561
+)
+"nano.ml" 78 1578 1586 "nano.ml" 78 1578 1587
+type(
+  int
+)
+ident(
+  def i "nano.ml" 79 1591 1597 "nano.ml" 79 1591 1612
+)
+"nano.ml" 78 1578 1582 "nano.ml" 78 1578 1587
+type(
+  expr
+)
+"nano.ml" 79 1591 1597 "nano.ml" 79 1591 1610
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"nano.ml" 79 1591 1611 "nano.ml" 79 1591 1612
+type(
+  int
+)
+ident(
+  int_ref i "nano.ml" 78 1578 1586 "nano.ml" 78 1578 1587
+)
+"nano.ml" 79 1591 1597 "nano.ml" 79 1591 1612
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 80 1613 1622 "nano.ml" 80 1613 1623
+type(
+  bool
+)
+ident(
+  def b "nano.ml" 81 1627 1633 "nano.ml" 81 1627 1649
+)
+"nano.ml" 80 1613 1617 "nano.ml" 80 1613 1623
+type(
+  expr
+)
+"nano.ml" 81 1627 1633 "nano.ml" 81 1627 1647
+type(
+  bool -> string
+)
+ident(
+  ext_ref Pervasives.string_of_bool
+)
+"nano.ml" 81 1627 1648 "nano.ml" 81 1627 1649
+type(
+  bool
+)
+ident(
+  int_ref b "nano.ml" 80 1613 1622 "nano.ml" 80 1613 1623
+)
+"nano.ml" 81 1627 1633 "nano.ml" 81 1627 1649
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 82 1650 1658 "nano.ml" 82 1650 1659
+type(
+  string
+)
+ident(
+  def x "nano.ml" 83 1663 1669 "nano.ml" 83 1663 1670
+)
+"nano.ml" 82 1650 1654 "nano.ml" 82 1650 1659
+type(
+  expr
+)
+"nano.ml" 83 1663 1669 "nano.ml" 83 1663 1670
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 82 1650 1658 "nano.ml" 82 1650 1659
+)
+"nano.ml" 84 1671 1685 "nano.ml" 84 1671 1687
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 85 1700 1706 "nano.ml" 85 1700 1774
+)
+"nano.ml" 84 1671 1689 "nano.ml" 84 1671 1691
+type(
+  binary_operator
+)
+ident(
+  def op "nano.ml" 85 1700 1706 "nano.ml" 85 1700 1774
+)
+"nano.ml" 84 1671 1693 "nano.ml" 84 1671 1695
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 85 1700 1706 "nano.ml" 85 1700 1774
+)
+"nano.ml" 84 1671 1675 "nano.ml" 84 1671 1696
+type(
+  expr
+)
+"nano.ml" 85 1700 1706 "nano.ml" 85 1700 1709
+type(
+  (string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 85 1700 1710 "nano.ml" 85 1700 1722
+type(
+  (string -> string -> string -> string, unit, string) format
+)
+"nano.ml" 85 1700 1724 "nano.ml" 85 1700 1731
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 85 1700 1732 "nano.ml" 85 1700 1737
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 85 1700 1738 "nano.ml" 85 1700 1740
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 84 1671 1685 "nano.ml" 84 1671 1687
+)
+"nano.ml" 85 1700 1723 "nano.ml" 85 1700 1741
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 85 1700 1743 "nano.ml" 85 1700 1751
+type(
+  binary_operator -> string
+)
+ident(
+  int_ref strBinOp "nano.ml" 41 705 709 "nano.ml" 41 705 717
+)
+"nano.ml" 85 1700 1752 "nano.ml" 85 1700 1754
+type(
+  binary_operator
+)
+ident(
+  int_ref op "nano.ml" 84 1671 1689 "nano.ml" 84 1671 1691
+)
+"nano.ml" 85 1700 1742 "nano.ml" 85 1700 1755
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 85 1700 1757 "nano.ml" 85 1700 1764
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 85 1700 1765 "nano.ml" 85 1700 1770
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 85 1700 1771 "nano.ml" 85 1700 1773
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 84 1671 1693 "nano.ml" 84 1671 1695
+)
+"nano.ml" 85 1700 1756 "nano.ml" 85 1700 1774
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 85 1700 1706 "nano.ml" 85 1700 1774
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 86 1775 1783 "nano.ml" 86 1775 1785
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 87 1798 1804 "nano.ml" 92 2067 2110
+)
+"nano.ml" 86 1775 1787 "nano.ml" 86 1775 1789
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 87 1798 1804 "nano.ml" 92 2067 2110
+)
+"nano.ml" 86 1775 1791 "nano.ml" 86 1775 1793
+type(
+  expr
+)
+ident(
+  def e3 "nano.ml" 87 1798 1804 "nano.ml" 92 2067 2110
+)
+"nano.ml" 86 1775 1779 "nano.ml" 86 1775 1794
+type(
+  expr
+)
+"nano.ml" 87 1798 1804 "nano.ml" 87 1798 1807
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format -> string -> string -> string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 87 1798 1808 "nano.ml" 87 1798 1820
+type(
+  (string -> string -> string -> string -> string -> string, unit, string)
+  format
+)
+"nano.ml" 88 1821 1830 "nano.ml" 88 1821 1833
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 88 1821 1834 "nano.ml" 88 1821 1845
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 88 1821 1850 "nano.ml" 88 1821 1857
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 88 1821 1858 "nano.ml" 88 1821 1863
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 88 1821 1864 "nano.ml" 88 1821 1866
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 86 1775 1783 "nano.ml" 86 1775 1785
+)
+"nano.ml" 88 1821 1849 "nano.ml" 88 1821 1867
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 88 1821 1829 "nano.ml" 88 1821 1868
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 89 1869 1878 "nano.ml" 89 1869 1881
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 89 1869 1882 "nano.ml" 89 1869 1890
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 89 1869 1898 "nano.ml" 89 1869 1904
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 89 1869 1906 "nano.ml" 89 1869 1910
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 89 1869 1911 "nano.ml" 89 1869 1916
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 89 1869 1905 "nano.ml" 89 1869 1917
+type(
+  int
+)
+"nano.ml" 89 1869 1897 "nano.ml" 89 1869 1918
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 89 1869 1920 "nano.ml" 89 1869 1927
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 89 1869 1929 "nano.ml" 89 1869 1933
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 89 1869 1934 "nano.ml" 89 1869 1939
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 89 1869 1928 "nano.ml" 89 1869 1940
+type(
+  int
+)
+"nano.ml" 89 1869 1941 "nano.ml" 89 1869 1943
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 86 1775 1787 "nano.ml" 86 1775 1789
+)
+"nano.ml" 89 1869 1919 "nano.ml" 89 1869 1944
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 89 1869 1877 "nano.ml" 89 1869 1945
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 90 1946 1955 "nano.ml" 90 1946 1958
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 90 1946 1959 "nano.ml" 90 1946 1973
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 90 1946 1975 "nano.ml" 90 1946 1981
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 90 1946 1982 "nano.ml" 90 1946 1987
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 90 1946 1974 "nano.ml" 90 1946 1988
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 90 1946 1954 "nano.ml" 90 1946 1989
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 91 1990 1999 "nano.ml" 91 1990 2002
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 91 1990 2003 "nano.ml" 91 1990 2011
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 91 1990 2019 "nano.ml" 91 1990 2025
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 91 1990 2027 "nano.ml" 91 1990 2031
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 91 1990 2032 "nano.ml" 91 1990 2037
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 91 1990 2026 "nano.ml" 91 1990 2038
+type(
+  int
+)
+"nano.ml" 91 1990 2018 "nano.ml" 91 1990 2039
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 91 1990 2041 "nano.ml" 91 1990 2048
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 91 1990 2050 "nano.ml" 91 1990 2054
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 91 1990 2055 "nano.ml" 91 1990 2060
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 91 1990 2049 "nano.ml" 91 1990 2061
+type(
+  int
+)
+"nano.ml" 91 1990 2062 "nano.ml" 91 1990 2064
+type(
+  expr
+)
+ident(
+  int_ref e3 "nano.ml" 86 1775 1791 "nano.ml" 86 1775 1793
+)
+"nano.ml" 91 1990 2040 "nano.ml" 91 1990 2065
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 91 1990 1998 "nano.ml" 91 1990 2066
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 92 2067 2076 "nano.ml" 92 2067 2079
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 92 2067 2080 "nano.ml" 92 2067 2085
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 92 2067 2096 "nano.ml" 92 2067 2102
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 92 2067 2103 "nano.ml" 92 2067 2108
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 92 2067 2095 "nano.ml" 92 2067 2109
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 92 2067 2075 "nano.ml" 92 2067 2110
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 87 1798 1804 "nano.ml" 92 2067 2110
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 93 2111 2120 "nano.ml" 93 2111 2121
+type(
+  string
+)
+ident(
+  def x "nano.ml" 94 2134 2140 "nano.ml" 98 2293 2363
+)
+"nano.ml" 93 2111 2123 "nano.ml" 93 2111 2125
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 94 2134 2140 "nano.ml" 98 2293 2363
+)
+"nano.ml" 93 2111 2127 "nano.ml" 93 2111 2129
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 94 2134 2140 "nano.ml" 98 2293 2363
+)
+"nano.ml" 93 2111 2115 "nano.ml" 93 2111 2130
+type(
+  expr
+)
+"nano.ml" 94 2134 2140 "nano.ml" 94 2134 2143
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 94 2134 2144 "nano.ml" 94 2134 2154
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"nano.ml" 95 2155 2164 "nano.ml" 95 2155 2167
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 95 2155 2168 "nano.ml" 95 2155 2180
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 95 2155 2181 "nano.ml" 95 2155 2182
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 93 2111 2120 "nano.ml" 93 2111 2121
+)
+"nano.ml" 95 2155 2163 "nano.ml" 95 2155 2183
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 96 2184 2193 "nano.ml" 96 2184 2196
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 96 2184 2197 "nano.ml" 96 2184 2205
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 96 2184 2207 "nano.ml" 96 2184 2213
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 96 2184 2215 "nano.ml" 96 2184 2219
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 96 2184 2220 "nano.ml" 96 2184 2225
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 96 2184 2214 "nano.ml" 96 2184 2226
+type(
+  int
+)
+"nano.ml" 96 2184 2206 "nano.ml" 96 2184 2227
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 96 2184 2229 "nano.ml" 96 2184 2236
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 96 2184 2238 "nano.ml" 96 2184 2242
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 96 2184 2243 "nano.ml" 96 2184 2248
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 96 2184 2237 "nano.ml" 96 2184 2249
+type(
+  int
+)
+"nano.ml" 96 2184 2250 "nano.ml" 96 2184 2252
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 93 2111 2123 "nano.ml" 93 2111 2125
+)
+"nano.ml" 96 2184 2228 "nano.ml" 96 2184 2253
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 96 2184 2192 "nano.ml" 96 2184 2254
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 97 2255 2264 "nano.ml" 97 2255 2267
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 97 2255 2268 "nano.ml" 97 2255 2276
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 97 2255 2278 "nano.ml" 97 2255 2284
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 97 2255 2285 "nano.ml" 97 2255 2290
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 97 2255 2277 "nano.ml" 97 2255 2291
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 97 2255 2263 "nano.ml" 97 2255 2292
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 98 2293 2302 "nano.ml" 98 2293 2305
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 98 2293 2306 "nano.ml" 98 2293 2312
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 98 2293 2316 "nano.ml" 98 2293 2322
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 98 2293 2324 "nano.ml" 98 2293 2328
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 98 2293 2329 "nano.ml" 98 2293 2334
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 98 2293 2323 "nano.ml" 98 2293 2335
+type(
+  int
+)
+"nano.ml" 98 2293 2315 "nano.ml" 98 2293 2336
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 98 2293 2338 "nano.ml" 98 2293 2345
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 98 2293 2347 "nano.ml" 98 2293 2351
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 98 2293 2352 "nano.ml" 98 2293 2357
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 98 2293 2346 "nano.ml" 98 2293 2358
+type(
+  int
+)
+"nano.ml" 98 2293 2359 "nano.ml" 98 2293 2361
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 93 2111 2127 "nano.ml" 93 2111 2129
+)
+"nano.ml" 98 2293 2337 "nano.ml" 98 2293 2362
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 98 2293 2301 "nano.ml" 98 2293 2363
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 94 2134 2140 "nano.ml" 98 2293 2363
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 99 2364 2373 "nano.ml" 99 2364 2375
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 100 2384 2390 "nano.ml" 100 2384 2441
+)
+"nano.ml" 99 2364 2377 "nano.ml" 99 2364 2379
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 100 2384 2390 "nano.ml" 100 2384 2441
+)
+"nano.ml" 99 2364 2368 "nano.ml" 99 2364 2380
+type(
+  expr
+)
+"nano.ml" 100 2384 2390 "nano.ml" 100 2384 2393
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 100 2384 2394 "nano.ml" 100 2384 2403
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 100 2384 2405 "nano.ml" 100 2384 2412
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 100 2384 2413 "nano.ml" 100 2384 2418
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 100 2384 2419 "nano.ml" 100 2384 2421
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 99 2364 2373 "nano.ml" 99 2364 2375
+)
+"nano.ml" 100 2384 2404 "nano.ml" 100 2384 2422
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 100 2384 2424 "nano.ml" 100 2384 2431
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 100 2384 2432 "nano.ml" 100 2384 2437
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 100 2384 2438 "nano.ml" 100 2384 2440
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 99 2364 2377 "nano.ml" 99 2364 2379
+)
+"nano.ml" 100 2384 2423 "nano.ml" 100 2384 2441
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 100 2384 2390 "nano.ml" 100 2384 2441
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 101 2442 2451 "nano.ml" 101 2442 2452
+type(
+  string
+)
+ident(
+  def x "nano.ml" 102 2460 2466 "nano.ml" 104 2556 2576
+)
+"nano.ml" 101 2442 2454 "nano.ml" 101 2442 2455
+type(
+  expr
+)
+ident(
+  def e "nano.ml" 102 2460 2466 "nano.ml" 104 2556 2576
+)
+"nano.ml" 101 2442 2446 "nano.ml" 101 2442 2456
+type(
+  expr
+)
+"nano.ml" 102 2460 2466 "nano.ml" 102 2460 2469
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 102 2460 2470 "nano.ml" 102 2460 2498
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"nano.ml" 102 2460 2499 "nano.ml" 102 2460 2500
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 101 2442 2451 "nano.ml" 101 2442 2452
+)
+"nano.ml" 103 2501 2510 "nano.ml" 103 2501 2516
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 103 2501 2518 "nano.ml" 103 2501 2522
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 103 2501 2523 "nano.ml" 103 2501 2528
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 103 2501 2517 "nano.ml" 103 2501 2529
+type(
+  int
+)
+"nano.ml" 103 2501 2509 "nano.ml" 103 2501 2530
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 103 2501 2532 "nano.ml" 103 2501 2539
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 103 2501 2541 "nano.ml" 103 2501 2545
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 103 2501 2546 "nano.ml" 103 2501 2551
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 103 2501 2540 "nano.ml" 103 2501 2552
+type(
+  int
+)
+"nano.ml" 103 2501 2553 "nano.ml" 103 2501 2554
+type(
+  expr
+)
+ident(
+  int_ref e "nano.ml" 101 2442 2454 "nano.ml" 101 2442 2455
+)
+"nano.ml" 103 2501 2531 "nano.ml" 103 2501 2555
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 104 2556 2563 "nano.ml" 104 2556 2569
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 104 2556 2570 "nano.ml" 104 2556 2575
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 104 2556 2562 "nano.ml" 104 2556 2576
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 102 2460 2466 "nano.ml" 104 2556 2576
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 105 2577 2581 "nano.ml" 105 2577 2584
+type(
+  expr
+)
+"nano.ml" 105 2577 2588 "nano.ml" 105 2577 2592
+type(
+  string
+)
+"nano.ml" 106 2593 2605 "nano.ml" 106 2593 2606
+type(
+  string
+)
+ident(
+  def x "nano.ml" 107 2619 2625 "nano.ml" 111 2782 2852
+)
+"nano.ml" 106 2593 2608 "nano.ml" 106 2593 2610
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 107 2619 2625 "nano.ml" 111 2782 2852
+)
+"nano.ml" 106 2593 2612 "nano.ml" 106 2593 2614
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 107 2619 2625 "nano.ml" 111 2782 2852
+)
+"nano.ml" 106 2593 2597 "nano.ml" 106 2593 2615
+type(
+  expr
+)
+"nano.ml" 107 2619 2625 "nano.ml" 107 2619 2628
+type(
+  (string -> string -> string -> string -> string, unit, string) format ->
+  string -> string -> string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 107 2619 2629 "nano.ml" 107 2619 2639
+type(
+  (string -> string -> string -> string -> string, unit, string) format
+)
+"nano.ml" 108 2640 2649 "nano.ml" 108 2640 2652
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 108 2640 2653 "nano.ml" 108 2640 2669
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 108 2640 2670 "nano.ml" 108 2640 2671
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 106 2593 2605 "nano.ml" 106 2593 2606
+)
+"nano.ml" 108 2640 2648 "nano.ml" 108 2640 2672
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 109 2673 2682 "nano.ml" 109 2673 2685
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 109 2673 2686 "nano.ml" 109 2673 2694
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 109 2673 2696 "nano.ml" 109 2673 2702
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 109 2673 2704 "nano.ml" 109 2673 2708
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 109 2673 2709 "nano.ml" 109 2673 2714
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 109 2673 2703 "nano.ml" 109 2673 2715
+type(
+  int
+)
+"nano.ml" 109 2673 2695 "nano.ml" 109 2673 2716
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 109 2673 2718 "nano.ml" 109 2673 2725
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 109 2673 2727 "nano.ml" 109 2673 2731
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 109 2673 2732 "nano.ml" 109 2673 2737
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 109 2673 2726 "nano.ml" 109 2673 2738
+type(
+  int
+)
+"nano.ml" 109 2673 2739 "nano.ml" 109 2673 2741
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 106 2593 2608 "nano.ml" 106 2593 2610
+)
+"nano.ml" 109 2673 2717 "nano.ml" 109 2673 2742
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 109 2673 2681 "nano.ml" 109 2673 2743
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 110 2744 2753 "nano.ml" 110 2744 2756
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 110 2744 2757 "nano.ml" 110 2744 2765
+type(
+  (string -> string, unit, string) format
+)
+"nano.ml" 110 2744 2767 "nano.ml" 110 2744 2773
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 110 2744 2774 "nano.ml" 110 2744 2779
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 110 2744 2766 "nano.ml" 110 2744 2780
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 110 2744 2752 "nano.ml" 110 2744 2781
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 111 2782 2791 "nano.ml" 111 2782 2794
+type(
+  (string -> string -> string, unit, string) format ->
+  string -> string -> string
+)
+ident(
+  int_ref spr "nano.ml" 55 927 931 "nano.ml" 55 927 934
+)
+"nano.ml" 111 2782 2795 "nano.ml" 111 2782 2801
+type(
+  (string -> string -> string, unit, string) format
+)
+"nano.ml" 111 2782 2805 "nano.ml" 111 2782 2811
+type(
+  int -> string
+)
+ident(
+  int_ref indent "nano.ml" 57 953 957 "nano.ml" 57 953 963
+)
+"nano.ml" 111 2782 2813 "nano.ml" 111 2782 2817
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 111 2782 2818 "nano.ml" 111 2782 2823
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 111 2782 2812 "nano.ml" 111 2782 2824
+type(
+  int
+)
+"nano.ml" 111 2782 2804 "nano.ml" 111 2782 2825
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 111 2782 2827 "nano.ml" 111 2782 2834
+type(
+  int -> expr -> string
+)
+ident(
+  int_ref strExpr "nano.ml" 76 1512 1516 "nano.ml" 76 1512 1523
+)
+"nano.ml" 111 2782 2836 "nano.ml" 111 2782 2840
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"nano.ml" 111 2782 2841 "nano.ml" 111 2782 2846
+type(
+  int
+)
+ident(
+  int_ref depth "nano.ml" 77 1550 1554 "nano.ml" 77 1550 1559
+)
+"nano.ml" 111 2782 2835 "nano.ml" 111 2782 2847
+type(
+  int
+)
+"nano.ml" 111 2782 2848 "nano.ml" 111 2782 2850
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 106 2593 2612 "nano.ml" 106 2593 2614
+)
+"nano.ml" 111 2782 2826 "nano.ml" 111 2782 2851
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 111 2782 2790 "nano.ml" 111 2782 2852
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 107 2619 2625 "nano.ml" 111 2782 2852
+call(
+  tail
+)
+type(
+  string
+)
+"nano.ml" 77 1550 1565 "nano.ml" 111 2782 2852
+type(
+  string
+)
+"nano.ml" 77 1550 1550 "nano.ml" 111 2782 2852
+type(
+  int -> expr -> string
+)
+type(
+  int -> expr -> string
+)
+"nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  def binop "nano.ml" 116 2976 2976 --
+)
+"nano.ml" 115 2933 2943 "nano.ml" 115 2933 2945
+type(
+  binary_operator
+)
+ident(
+  def op "nano.ml" 115 2933 2946 "nano.ml" 115 2933 2975
+)
+"nano.ml" 115 2933 2946 "nano.ml" 115 2933 2948
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 115 2933 2949 "nano.ml" 115 2933 2975
+)
+"nano.ml" 115 2933 2949 "nano.ml" 115 2933 2951
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 115 2933 2954 "nano.ml" 115 2933 2975
+)
+"nano.ml" 115 2933 2964 "nano.ml" 115 2933 2966
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 115 2933 2946 "nano.ml" 115 2933 2948
+)
+"nano.ml" 115 2933 2968 "nano.ml" 115 2933 2970
+type(
+  binary_operator
+)
+ident(
+  int_ref op "nano.ml" 115 2933 2943 "nano.ml" 115 2933 2945
+)
+"nano.ml" 115 2933 2972 "nano.ml" 115 2933 2974
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 115 2933 2949 "nano.ml" 115 2933 2951
+)
+"nano.ml" 115 2933 2954 "nano.ml" 115 2933 2975
+type(
+  expr
+)
+"nano.ml" 116 2976 2980 "nano.ml" 116 2976 2984
+type(
+  expr -> expr -> expr
+)
+ident(
+  def plus "nano.ml" 117 3008 3008 --
+)
+"nano.ml" 116 2976 2997 "nano.ml" 116 2976 3002
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 116 2976 3003 "nano.ml" 116 2976 3007
+type(
+  binary_operator
+)
+"nano.ml" 116 2976 2997 "nano.ml" 116 2976 3007
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 117 3008 3012 "nano.ml" 117 3008 3015
+type(
+  expr -> expr -> expr
+)
+ident(
+  def mul "nano.ml" 118 3039 3039 --
+)
+"nano.ml" 117 3008 3029 "nano.ml" 117 3008 3034
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 117 3008 3035 "nano.ml" 117 3008 3038
+type(
+  binary_operator
+)
+"nano.ml" 117 3008 3029 "nano.ml" 117 3008 3038
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 118 3039 3043 "nano.ml" 118 3039 3046
+type(
+  expr -> expr -> expr
+)
+ident(
+  def div "nano.ml" 119 3070 3070 --
+)
+"nano.ml" 118 3039 3060 "nano.ml" 118 3039 3065
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 118 3039 3066 "nano.ml" 118 3039 3069
+type(
+  binary_operator
+)
+"nano.ml" 118 3039 3060 "nano.ml" 118 3039 3069
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 119 3070 3074 "nano.ml" 119 3070 3079
+type(
+  expr -> expr -> expr
+)
+ident(
+  def minus "nano.ml" 120 3103 3103 --
+)
+"nano.ml" 119 3070 3091 "nano.ml" 119 3070 3096
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 119 3070 3097 "nano.ml" 119 3070 3102
+type(
+  binary_operator
+)
+"nano.ml" 119 3070 3091 "nano.ml" 119 3070 3102
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 120 3103 3107 "nano.ml" 120 3103 3109
+type(
+  expr -> expr -> expr
+)
+ident(
+  def eq "nano.ml" 121 3133 3133 --
+)
+"nano.ml" 120 3103 3124 "nano.ml" 120 3103 3129
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 120 3103 3130 "nano.ml" 120 3103 3132
+type(
+  binary_operator
+)
+"nano.ml" 120 3103 3124 "nano.ml" 120 3103 3132
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 121 3133 3137 "nano.ml" 121 3133 3141
+type(
+  expr -> expr -> expr
+)
+ident(
+  def cons "nano.ml" 125 3245 3245 --
+)
+"nano.ml" 121 3133 3154 "nano.ml" 121 3133 3159
+type(
+  binary_operator -> expr -> expr -> expr
+)
+ident(
+  int_ref binop "nano.ml" 115 2933 2937 "nano.ml" 115 2933 2942
+)
+"nano.ml" 121 3133 3160 "nano.ml" 121 3133 3164
+type(
+  binary_operator
+)
+"nano.ml" 121 3133 3154 "nano.ml" 121 3133 3164
+call(
+  stack
+)
+type(
+  expr -> expr -> expr
+)
+"nano.ml" 125 3245 3253 "nano.ml" 125 3245 3257
+type(
+  ('a * 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  def fold "nano.ml" 125 3245 3245 --
+)
+"nano.ml" 125 3245 3258 "nano.ml" 125 3245 3259
+type(
+  'a * 'b -> 'a
+)
+ident(
+  def f "nano.ml" 125 3245 3260 "nano.ml" 128 3308 3342
+)
+"nano.ml" 125 3245 3260 "nano.ml" 125 3245 3263
+type(
+  'a
+)
+ident(
+  def acc "nano.ml" 125 3245 3264 "nano.ml" 128 3308 3342
+)
+"nano.ml" 125 3245 3264 "nano.ml" 125 3245 3268
+type(
+  'b list
+)
+ident(
+  def args "nano.ml" 126 3272 3274 "nano.ml" 128 3308 3342
+)
+"nano.ml" 126 3272 3280 "nano.ml" 126 3272 3284
+type(
+  'b list
+)
+ident(
+  int_ref args "nano.ml" 125 3245 3264 "nano.ml" 125 3245 3268
+)
+"nano.ml" 127 3290 3296 "nano.ml" 127 3290 3298
+type(
+  'b list
+)
+"nano.ml" 127 3290 3304 "nano.ml" 127 3290 3307
+type(
+  'a
+)
+ident(
+  int_ref acc "nano.ml" 125 3245 3260 "nano.ml" 125 3245 3263
+)
+"nano.ml" 128 3308 3314 "nano.ml" 128 3308 3315
+type(
+  'b
+)
+ident(
+  def h "nano.ml" 128 3308 3322 "nano.ml" 128 3308 3342
+)
+"nano.ml" 128 3308 3317 "nano.ml" 128 3308 3318
+type(
+  'b list
+)
+ident(
+  def t "nano.ml" 128 3308 3322 "nano.ml" 128 3308 3342
+)
+"nano.ml" 128 3308 3314 "nano.ml" 128 3308 3318
+type(
+  'b list
+)
+"nano.ml" 128 3308 3322 "nano.ml" 128 3308 3326
+type(
+  ('a * 'b -> 'a) -> 'a -> 'b list -> 'a
+)
+ident(
+  int_ref fold "nano.ml" 125 3245 3253 "nano.ml" 125 3245 3257
+)
+"nano.ml" 128 3308 3327 "nano.ml" 128 3308 3328
+type(
+  'a * 'b -> 'a
+)
+ident(
+  int_ref f "nano.ml" 125 3245 3258 "nano.ml" 125 3245 3259
+)
+"nano.ml" 128 3308 3330 "nano.ml" 128 3308 3331
+type(
+  'a * 'b -> 'a
+)
+ident(
+  int_ref f "nano.ml" 125 3245 3258 "nano.ml" 125 3245 3259
+)
+"nano.ml" 128 3308 3333 "nano.ml" 128 3308 3336
+type(
+  'a
+)
+ident(
+  int_ref acc "nano.ml" 125 3245 3260 "nano.ml" 125 3245 3263
+)
+"nano.ml" 128 3308 3337 "nano.ml" 128 3308 3338
+type(
+  'b
+)
+ident(
+  int_ref h "nano.ml" 128 3308 3314 "nano.ml" 128 3308 3315
+)
+"nano.ml" 128 3308 3332 "nano.ml" 128 3308 3339
+type(
+  'a * 'b
+)
+"nano.ml" 128 3308 3329 "nano.ml" 128 3308 3340
+call(
+  stack
+)
+type(
+  'a
+)
+"nano.ml" 128 3308 3341 "nano.ml" 128 3308 3342
+type(
+  'b list
+)
+ident(
+  int_ref t "nano.ml" 128 3308 3317 "nano.ml" 128 3308 3318
+)
+"nano.ml" 128 3308 3322 "nano.ml" 128 3308 3342
+call(
+  tail
+)
+type(
+  'a
+)
+"nano.ml" 126 3272 3274 "nano.ml" 128 3308 3342
+type(
+  'a
+)
+"nano.ml" 130 3344 3348 "nano.ml" 130 3344 3357
+type(
+  'a * ('a * 'b) list -> 'b option
+)
+ident(
+  def listAssoc "nano.ml" 144 3794 3794 --
+)
+"nano.ml" 130 3344 3359 "nano.ml" 130 3344 3360
+type(
+  'a
+)
+ident(
+  def k "nano.ml" 131 3367 3369 "nano.ml" 134 3464 3474
+)
+"nano.ml" 130 3344 3361 "nano.ml" 130 3344 3362
+type(
+  ('a * 'b) list
+)
+ident(
+  def l "nano.ml" 131 3367 3369 "nano.ml" 134 3464 3474
+)
+"nano.ml" 130 3344 3358 "nano.ml" 130 3344 3363
+type(
+  'a * ('a * 'b) list
+)
+"nano.ml" 131 3367 3369 "nano.ml" 131 3367 3373
+type(
+  ('b option * ('a * 'b) -> 'b option) ->
+  'b option -> ('a * 'b) list -> 'b option
+)
+ident(
+  int_ref fold "nano.ml" 125 3245 3253 "nano.ml" 125 3245 3257
+)
+"nano.ml" 132 3384 3390 "nano.ml" 132 3384 3394
+type(
+  'b option
+)
+"nano.ml" 132 3384 3397 "nano.ml" 132 3384 3399
+type(
+  'a
+)
+ident(
+  def k' "nano.ml" 132 3384 3406 "nano.ml" 132 3384 3437
+)
+"nano.ml" 132 3384 3400 "nano.ml" 132 3384 3401
+type(
+  'b
+)
+ident(
+  def v "nano.ml" 132 3384 3406 "nano.ml" 132 3384 3437
+)
+"nano.ml" 132 3384 3396 "nano.ml" 132 3384 3402
+type(
+  'a * 'b
+)
+"nano.ml" 132 3384 3390 "nano.ml" 132 3384 3402
+type(
+  'b option * ('a * 'b)
+)
+"nano.ml" 132 3384 3409 "nano.ml" 132 3384 3410
+type(
+  'a
+)
+ident(
+  int_ref k "nano.ml" 130 3344 3359 "nano.ml" 130 3344 3360
+)
+"nano.ml" 132 3384 3411 "nano.ml" 132 3384 3412
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"nano.ml" 132 3384 3413 "nano.ml" 132 3384 3415
+type(
+  'a
+)
+ident(
+  int_ref k' "nano.ml" 132 3384 3397 "nano.ml" 132 3384 3399
+)
+"nano.ml" 132 3384 3409 "nano.ml" 132 3384 3415
+type(
+  bool
+)
+"nano.ml" 132 3384 3426 "nano.ml" 132 3384 3427
+type(
+  'b
+)
+ident(
+  int_ref v "nano.ml" 132 3384 3400 "nano.ml" 132 3384 3401
+)
+"nano.ml" 132 3384 3421 "nano.ml" 132 3384 3427
+type(
+  'b option
+)
+"nano.ml" 132 3384 3433 "nano.ml" 132 3384 3437
+type(
+  'b option
+)
+"nano.ml" 132 3384 3406 "nano.ml" 132 3384 3437
+type(
+  'b option
+)
+"nano.ml" 133 3438 3444 "nano.ml" 133 3438 3447
+type(
+  'b option
+)
+ident(
+  def acc "nano.ml" 133 3438 3460 "nano.ml" 133 3438 3463
+)
+"nano.ml" 133 3438 3449 "nano.ml" 133 3438 3450
+type(
+  'a * 'b
+)
+"nano.ml" 133 3438 3444 "nano.ml" 133 3438 3450
+type(
+  'b option * ('a * 'b)
+)
+"nano.ml" 133 3438 3460 "nano.ml" 133 3438 3463
+type(
+  'b option
+)
+ident(
+  int_ref acc "nano.ml" 133 3438 3444 "nano.ml" 133 3438 3447
+)
+"nano.ml" 131 3367 3374 "nano.ml" 134 3464 3467
+type(
+  'b option * ('a * 'b) -> 'b option
+)
+"nano.ml" 134 3464 3468 "nano.ml" 134 3464 3472
+type(
+  'b option
+)
+"nano.ml" 134 3464 3473 "nano.ml" 134 3464 3474
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref l "nano.ml" 130 3344 3361 "nano.ml" 130 3344 3362
+)
+"nano.ml" 131 3367 3369 "nano.ml" 134 3464 3474
+call(
+  tail
+)
+type(
+  'b option
+)
+"nano.ml" 144 3794 3798 "nano.ml" 144 3794 3804
+type(
+  string * (string * 'a) list -> 'a
+)
+ident(
+  def lookup "nano.ml" 154 4098 4098 --
+)
+"nano.ml" 144 3794 3806 "nano.ml" 144 3794 3807
+type(
+  string
+)
+ident(
+  def x "nano.ml" 145 3816 3818 "nano.ml" 147 3864 3925
+)
+"nano.ml" 144 3794 3808 "nano.ml" 144 3794 3811
+type(
+  (string * 'a) list
+)
+ident(
+  def env "nano.ml" 145 3816 3818 "nano.ml" 147 3864 3925
+)
+"nano.ml" 144 3794 3805 "nano.ml" 144 3794 3812
+type(
+  string * (string * 'a) list
+)
+"nano.ml" 145 3816 3824 "nano.ml" 145 3816 3833
+type(
+  string * (string * 'a) list -> 'a option
+)
+ident(
+  int_ref listAssoc "nano.ml" 130 3344 3348 "nano.ml" 130 3344 3357
+)
+"nano.ml" 145 3816 3835 "nano.ml" 145 3816 3836
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 144 3794 3806 "nano.ml" 144 3794 3807
+)
+"nano.ml" 145 3816 3838 "nano.ml" 145 3816 3841
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref env "nano.ml" 144 3794 3808 "nano.ml" 144 3794 3811
+)
+"nano.ml" 145 3816 3834 "nano.ml" 145 3816 3842
+type(
+  string * (string * 'a) list
+)
+"nano.ml" 145 3816 3824 "nano.ml" 145 3816 3842
+call(
+  stack
+)
+type(
+  'a option
+)
+"nano.ml" 146 3848 3857 "nano.ml" 146 3848 3858
+type(
+  'a
+)
+ident(
+  def v "nano.ml" 146 3848 3862 "nano.ml" 146 3848 3863
+)
+"nano.ml" 146 3848 3852 "nano.ml" 146 3848 3858
+type(
+  'a option
+)
+"nano.ml" 146 3848 3862 "nano.ml" 146 3848 3863
+type(
+  'a
+)
+ident(
+  int_ref v "nano.ml" 146 3848 3857 "nano.ml" 146 3848 3858
+)
+"nano.ml" 147 3864 3868 "nano.ml" 147 3864 3869
+type(
+  'a option
+)
+"nano.ml" 147 3864 3873 "nano.ml" 147 3864 3878
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"nano.ml" 147 3864 3897 "nano.ml" 147 3864 3919
+type(
+  string
+)
+"nano.ml" 147 3864 3920 "nano.ml" 147 3864 3921
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"nano.ml" 147 3864 3922 "nano.ml" 147 3864 3923
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 144 3794 3806 "nano.ml" 144 3794 3807
+)
+"nano.ml" 147 3864 3896 "nano.ml" 147 3864 3924
+call(
+  stack
+)
+type(
+  string
+)
+"nano.ml" 147 3864 3879 "nano.ml" 147 3864 3925
+type(
+  exn
+)
+"nano.ml" 147 3864 3873 "nano.ml" 147 3864 3925
+type(
+  'a
+)
+"nano.ml" 145 3816 3818 "nano.ml" 147 3864 3925
+type(
+  'a
+)
+"nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+type(
+  env * expr -> value
+)
+ident(
+  def eval "nano.ml" 154 4098 4098 --
+)
+"nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+type(
+  env
+)
+ident(
+  def env "nano.ml" 155 4122 4124 "nano.ml" 219 6574 6632
+)
+"nano.ml" 154 4098 4116 "nano.ml" 154 4098 4117
+type(
+  expr
+)
+ident(
+  def e "nano.ml" 155 4122 4124 "nano.ml" 219 6574 6632
+)
+"nano.ml" 154 4098 4111 "nano.ml" 154 4098 4118
+type(
+  env * expr
+)
+"nano.ml" 155 4122 4130 "nano.ml" 155 4122 4131
+type(
+  expr
+)
+ident(
+  int_ref e "nano.ml" 154 4098 4116 "nano.ml" 154 4098 4117
+)
+"nano.ml" 156 4138 4146 "nano.ml" 156 4138 4147
+type(
+  int
+)
+ident(
+  def i "nano.ml" 156 4138 4151 "nano.ml" 156 4138 4157
+)
+"nano.ml" 156 4138 4142 "nano.ml" 156 4138 4147
+type(
+  expr
+)
+"nano.ml" 156 4138 4156 "nano.ml" 156 4138 4157
+type(
+  int
+)
+ident(
+  int_ref i "nano.ml" 156 4138 4146 "nano.ml" 156 4138 4147
+)
+"nano.ml" 156 4138 4151 "nano.ml" 156 4138 4157
+type(
+  value
+)
+"nano.ml" 157 4158 4167 "nano.ml" 157 4158 4168
+type(
+  bool
+)
+ident(
+  def b "nano.ml" 157 4158 4172 "nano.ml" 157 4158 4179
+)
+"nano.ml" 157 4158 4162 "nano.ml" 157 4158 4168
+type(
+  expr
+)
+"nano.ml" 157 4158 4178 "nano.ml" 157 4158 4179
+type(
+  bool
+)
+ident(
+  int_ref b "nano.ml" 157 4158 4167 "nano.ml" 157 4158 4168
+)
+"nano.ml" 157 4158 4172 "nano.ml" 157 4158 4179
+type(
+  value
+)
+"nano.ml" 158 4180 4188 "nano.ml" 158 4180 4189
+type(
+  string
+)
+ident(
+  def x "nano.ml" 158 4180 4193 "nano.ml" 158 4180 4208
+)
+"nano.ml" 158 4180 4184 "nano.ml" 158 4180 4189
+type(
+  expr
+)
+"nano.ml" 158 4180 4193 "nano.ml" 158 4180 4199
+type(
+  string * env -> value
+)
+ident(
+  int_ref lookup "nano.ml" 144 3794 3798 "nano.ml" 144 3794 3804
+)
+"nano.ml" 158 4180 4201 "nano.ml" 158 4180 4202
+type(
+  string
+)
+ident(
+  int_ref x "nano.ml" 158 4180 4188 "nano.ml" 158 4180 4189
+)
+"nano.ml" 158 4180 4204 "nano.ml" 158 4180 4207
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 158 4180 4200 "nano.ml" 158 4180 4208
+type(
+  string * env
+)
+"nano.ml" 158 4180 4193 "nano.ml" 158 4180 4208
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 159 4209 4223 "nano.ml" 159 4209 4225
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 160 4239 4244 "nano.ml" 176 4911 4987
+)
+"nano.ml" 159 4209 4227 "nano.ml" 159 4209 4229
+type(
+  binary_operator
+)
+ident(
+  def op "nano.ml" 160 4239 4244 "nano.ml" 176 4911 4987
+)
+"nano.ml" 159 4209 4231 "nano.ml" 159 4209 4233
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 160 4239 4244 "nano.ml" 176 4911 4987
+)
+"nano.ml" 159 4209 4213 "nano.ml" 159 4209 4234
+type(
+  expr
+)
+"nano.ml" 160 4239 4249 "nano.ml" 160 4239 4250
+type(
+  value
+)
+"nano.ml" 160 4239 4253 "nano.ml" 160 4239 4257
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 160 4239 4259 "nano.ml" 160 4239 4262
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 160 4239 4264 "nano.ml" 160 4239 4266
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 159 4209 4223 "nano.ml" 159 4209 4225
+)
+"nano.ml" 160 4239 4258 "nano.ml" 160 4239 4267
+type(
+  env * expr
+)
+"nano.ml" 160 4239 4253 "nano.ml" 160 4239 4267
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 161 4271 4281 "nano.ml" 161 4271 4282
+type(
+  value
+)
+"nano.ml" 161 4271 4285 "nano.ml" 161 4271 4289
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 161 4271 4291 "nano.ml" 161 4271 4294
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 161 4271 4296 "nano.ml" 161 4271 4298
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 159 4209 4231 "nano.ml" 159 4209 4233
+)
+"nano.ml" 161 4271 4290 "nano.ml" 161 4271 4299
+type(
+  env * expr
+)
+"nano.ml" 161 4271 4285 "nano.ml" 161 4271 4299
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 162 4303 4316 "nano.ml" 162 4303 4317
+type(
+  value
+)
+ident(
+  int_ref x "nano.ml" 160 4239 4249 "nano.ml" 160 4239 4250
+)
+"nano.ml" 162 4303 4319 "nano.ml" 162 4303 4321
+type(
+  binary_operator
+)
+ident(
+  int_ref op "nano.ml" 159 4209 4227 "nano.ml" 159 4209 4229
+)
+"nano.ml" 162 4303 4323 "nano.ml" 162 4303 4324
+type(
+  value
+)
+ident(
+  int_ref y "nano.ml" 161 4271 4281 "nano.ml" 161 4271 4282
+)
+"nano.ml" 162 4303 4315 "nano.ml" 162 4303 4325
+type(
+  value * binary_operator * value
+)
+"nano.ml" 163 4331 4344 "nano.ml" 163 4331 4345
+type(
+  int
+)
+ident(
+  def x "nano.ml" 163 4331 4363 "nano.ml" 163 4331 4375
+)
+"nano.ml" 163 4331 4339 "nano.ml" 163 4331 4345
+type(
+  value
+)
+"nano.ml" 163 4331 4347 "nano.ml" 163 4331 4351
+type(
+  binary_operator
+)
+"nano.ml" 163 4331 4358 "nano.ml" 163 4331 4359
+type(
+  int
+)
+ident(
+  def y "nano.ml" 163 4331 4363 "nano.ml" 163 4331 4375
+)
+"nano.ml" 163 4331 4353 "nano.ml" 163 4331 4359
+type(
+  value
+)
+"nano.ml" 163 4331 4339 "nano.ml" 163 4331 4359
+type(
+  value * binary_operator * value
+)
+"nano.ml" 163 4331 4369 "nano.ml" 163 4331 4370
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 163 4331 4344 "nano.ml" 163 4331 4345
+)
+"nano.ml" 163 4331 4371 "nano.ml" 163 4331 4372
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"nano.ml" 163 4331 4373 "nano.ml" 163 4331 4374
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 163 4331 4358 "nano.ml" 163 4331 4359
+)
+"nano.ml" 163 4331 4368 "nano.ml" 163 4331 4375
+type(
+  int
+)
+"nano.ml" 163 4331 4363 "nano.ml" 163 4331 4375
+type(
+  value
+)
+"nano.ml" 164 4376 4389 "nano.ml" 164 4376 4390
+type(
+  int
+)
+ident(
+  def x "nano.ml" 164 4376 4409 "nano.ml" 164 4376 4421
+)
+"nano.ml" 164 4376 4384 "nano.ml" 164 4376 4390
+type(
+  value
+)
+"nano.ml" 164 4376 4392 "nano.ml" 164 4376 4397
+type(
+  binary_operator
+)
+"nano.ml" 164 4376 4404 "nano.ml" 164 4376 4405
+type(
+  int
+)
+ident(
+  def y "nano.ml" 164 4376 4409 "nano.ml" 164 4376 4421
+)
+"nano.ml" 164 4376 4399 "nano.ml" 164 4376 4405
+type(
+  value
+)
+"nano.ml" 164 4376 4384 "nano.ml" 164 4376 4405
+type(
+  value * binary_operator * value
+)
+"nano.ml" 164 4376 4415 "nano.ml" 164 4376 4416
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 164 4376 4389 "nano.ml" 164 4376 4390
+)
+"nano.ml" 164 4376 4417 "nano.ml" 164 4376 4418
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"nano.ml" 164 4376 4419 "nano.ml" 164 4376 4420
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 164 4376 4404 "nano.ml" 164 4376 4405
+)
+"nano.ml" 164 4376 4414 "nano.ml" 164 4376 4421
+type(
+  int
+)
+"nano.ml" 164 4376 4409 "nano.ml" 164 4376 4421
+type(
+  value
+)
+"nano.ml" 165 4422 4435 "nano.ml" 165 4422 4436
+type(
+  int
+)
+ident(
+  def x "nano.ml" 165 4422 4453 "nano.ml" 165 4422 4465
+)
+"nano.ml" 165 4422 4430 "nano.ml" 165 4422 4436
+type(
+  value
+)
+"nano.ml" 165 4422 4438 "nano.ml" 165 4422 4441
+type(
+  binary_operator
+)
+"nano.ml" 165 4422 4448 "nano.ml" 165 4422 4449
+type(
+  int
+)
+ident(
+  def y "nano.ml" 165 4422 4453 "nano.ml" 165 4422 4465
+)
+"nano.ml" 165 4422 4443 "nano.ml" 165 4422 4449
+type(
+  value
+)
+"nano.ml" 165 4422 4430 "nano.ml" 165 4422 4449
+type(
+  value * binary_operator * value
+)
+"nano.ml" 165 4422 4459 "nano.ml" 165 4422 4460
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 165 4422 4435 "nano.ml" 165 4422 4436
+)
+"nano.ml" 165 4422 4461 "nano.ml" 165 4422 4462
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.*
+)
+"nano.ml" 165 4422 4463 "nano.ml" 165 4422 4464
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 165 4422 4448 "nano.ml" 165 4422 4449
+)
+"nano.ml" 165 4422 4458 "nano.ml" 165 4422 4465
+type(
+  int
+)
+"nano.ml" 165 4422 4453 "nano.ml" 165 4422 4465
+type(
+  value
+)
+"nano.ml" 166 4466 4479 "nano.ml" 166 4466 4480
+type(
+  int
+)
+ident(
+  def x "nano.ml" 166 4466 4497 "nano.ml" 166 4466 4509
+)
+"nano.ml" 166 4466 4474 "nano.ml" 166 4466 4480
+type(
+  value
+)
+"nano.ml" 166 4466 4482 "nano.ml" 166 4466 4485
+type(
+  binary_operator
+)
+"nano.ml" 166 4466 4492 "nano.ml" 166 4466 4493
+type(
+  int
+)
+ident(
+  def y "nano.ml" 166 4466 4497 "nano.ml" 166 4466 4509
+)
+"nano.ml" 166 4466 4487 "nano.ml" 166 4466 4493
+type(
+  value
+)
+"nano.ml" 166 4466 4474 "nano.ml" 166 4466 4493
+type(
+  value * binary_operator * value
+)
+"nano.ml" 166 4466 4503 "nano.ml" 166 4466 4504
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 166 4466 4479 "nano.ml" 166 4466 4480
+)
+"nano.ml" 166 4466 4505 "nano.ml" 166 4466 4506
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives./
+)
+"nano.ml" 166 4466 4507 "nano.ml" 166 4466 4508
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 166 4466 4492 "nano.ml" 166 4466 4493
+)
+"nano.ml" 166 4466 4502 "nano.ml" 166 4466 4509
+type(
+  int
+)
+"nano.ml" 166 4466 4497 "nano.ml" 166 4466 4509
+type(
+  value
+)
+"nano.ml" 167 4510 4523 "nano.ml" 167 4510 4524
+type(
+  int
+)
+ident(
+  def x "nano.ml" 167 4510 4540 "nano.ml" 167 4510 4553
+)
+"nano.ml" 167 4510 4518 "nano.ml" 167 4510 4524
+type(
+  value
+)
+"nano.ml" 167 4510 4526 "nano.ml" 167 4510 4528
+type(
+  binary_operator
+)
+"nano.ml" 167 4510 4535 "nano.ml" 167 4510 4536
+type(
+  int
+)
+ident(
+  def y "nano.ml" 167 4510 4540 "nano.ml" 167 4510 4553
+)
+"nano.ml" 167 4510 4530 "nano.ml" 167 4510 4536
+type(
+  value
+)
+"nano.ml" 167 4510 4518 "nano.ml" 167 4510 4536
+type(
+  value * binary_operator * value
+)
+"nano.ml" 167 4510 4547 "nano.ml" 167 4510 4548
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 167 4510 4523 "nano.ml" 167 4510 4524
+)
+"nano.ml" 167 4510 4549 "nano.ml" 167 4510 4550
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"nano.ml" 167 4510 4551 "nano.ml" 167 4510 4552
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 167 4510 4535 "nano.ml" 167 4510 4536
+)
+"nano.ml" 167 4510 4546 "nano.ml" 167 4510 4553
+type(
+  bool
+)
+"nano.ml" 167 4510 4540 "nano.ml" 167 4510 4553
+type(
+  value
+)
+"nano.ml" 168 4554 4568 "nano.ml" 168 4554 4569
+type(
+  bool
+)
+ident(
+  def x "nano.ml" 168 4554 4586 "nano.ml" 168 4554 4599
+)
+"nano.ml" 168 4554 4562 "nano.ml" 168 4554 4569
+type(
+  value
+)
+"nano.ml" 168 4554 4571 "nano.ml" 168 4554 4573
+type(
+  binary_operator
+)
+"nano.ml" 168 4554 4581 "nano.ml" 168 4554 4582
+type(
+  bool
+)
+ident(
+  def y "nano.ml" 168 4554 4586 "nano.ml" 168 4554 4599
+)
+"nano.ml" 168 4554 4575 "nano.ml" 168 4554 4582
+type(
+  value
+)
+"nano.ml" 168 4554 4562 "nano.ml" 168 4554 4582
+type(
+  value * binary_operator * value
+)
+"nano.ml" 168 4554 4593 "nano.ml" 168 4554 4594
+type(
+  bool
+)
+ident(
+  int_ref x "nano.ml" 168 4554 4568 "nano.ml" 168 4554 4569
+)
+"nano.ml" 168 4554 4595 "nano.ml" 168 4554 4596
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"nano.ml" 168 4554 4597 "nano.ml" 168 4554 4598
+type(
+  bool
+)
+ident(
+  int_ref y "nano.ml" 168 4554 4581 "nano.ml" 168 4554 4582
+)
+"nano.ml" 168 4554 4592 "nano.ml" 168 4554 4599
+type(
+  bool
+)
+"nano.ml" 168 4554 4586 "nano.ml" 168 4554 4599
+type(
+  value
+)
+"nano.ml" 169 4600 4613 "nano.ml" 169 4600 4614
+type(
+  int
+)
+ident(
+  def x "nano.ml" 169 4600 4630 "nano.ml" 169 4600 4644
+)
+"nano.ml" 169 4600 4608 "nano.ml" 169 4600 4614
+type(
+  value
+)
+"nano.ml" 169 4600 4616 "nano.ml" 169 4600 4618
+type(
+  binary_operator
+)
+"nano.ml" 169 4600 4625 "nano.ml" 169 4600 4626
+type(
+  int
+)
+ident(
+  def y "nano.ml" 169 4600 4630 "nano.ml" 169 4600 4644
+)
+"nano.ml" 169 4600 4620 "nano.ml" 169 4600 4626
+type(
+  value
+)
+"nano.ml" 169 4600 4608 "nano.ml" 169 4600 4626
+type(
+  value * binary_operator * value
+)
+"nano.ml" 169 4600 4637 "nano.ml" 169 4600 4638
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 169 4600 4613 "nano.ml" 169 4600 4614
+)
+"nano.ml" 169 4600 4639 "nano.ml" 169 4600 4641
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"nano.ml" 169 4600 4642 "nano.ml" 169 4600 4643
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 169 4600 4625 "nano.ml" 169 4600 4626
+)
+"nano.ml" 169 4600 4636 "nano.ml" 169 4600 4644
+type(
+  bool
+)
+"nano.ml" 169 4600 4630 "nano.ml" 169 4600 4644
+type(
+  value
+)
+"nano.ml" 170 4645 4659 "nano.ml" 170 4645 4660
+type(
+  bool
+)
+ident(
+  def x "nano.ml" 170 4645 4677 "nano.ml" 170 4645 4691
+)
+"nano.ml" 170 4645 4653 "nano.ml" 170 4645 4660
+type(
+  value
+)
+"nano.ml" 170 4645 4662 "nano.ml" 170 4645 4664
+type(
+  binary_operator
+)
+"nano.ml" 170 4645 4672 "nano.ml" 170 4645 4673
+type(
+  bool
+)
+ident(
+  def y "nano.ml" 170 4645 4677 "nano.ml" 170 4645 4691
+)
+"nano.ml" 170 4645 4666 "nano.ml" 170 4645 4673
+type(
+  value
+)
+"nano.ml" 170 4645 4653 "nano.ml" 170 4645 4673
+type(
+  value * binary_operator * value
+)
+"nano.ml" 170 4645 4684 "nano.ml" 170 4645 4685
+type(
+  bool
+)
+ident(
+  int_ref x "nano.ml" 170 4645 4659 "nano.ml" 170 4645 4660
+)
+"nano.ml" 170 4645 4686 "nano.ml" 170 4645 4688
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.<>
+)
+"nano.ml" 170 4645 4689 "nano.ml" 170 4645 4690
+type(
+  bool
+)
+ident(
+  int_ref y "nano.ml" 170 4645 4672 "nano.ml" 170 4645 4673
+)
+"nano.ml" 170 4645 4683 "nano.ml" 170 4645 4691
+type(
+  bool
+)
+"nano.ml" 170 4645 4677 "nano.ml" 170 4645 4691
+type(
+  value
+)
+"nano.ml" 171 4692 4705 "nano.ml" 171 4692 4706
+type(
+  int
+)
+ident(
+  def x "nano.ml" 171 4692 4722 "nano.ml" 171 4692 4735
+)
+"nano.ml" 171 4692 4700 "nano.ml" 171 4692 4706
+type(
+  value
+)
+"nano.ml" 171 4692 4708 "nano.ml" 171 4692 4710
+type(
+  binary_operator
+)
+"nano.ml" 171 4692 4717 "nano.ml" 171 4692 4718
+type(
+  int
+)
+ident(
+  def y "nano.ml" 171 4692 4722 "nano.ml" 171 4692 4735
+)
+"nano.ml" 171 4692 4712 "nano.ml" 171 4692 4718
+type(
+  value
+)
+"nano.ml" 171 4692 4700 "nano.ml" 171 4692 4718
+type(
+  value * binary_operator * value
+)
+"nano.ml" 171 4692 4729 "nano.ml" 171 4692 4730
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 171 4692 4705 "nano.ml" 171 4692 4706
+)
+"nano.ml" 171 4692 4731 "nano.ml" 171 4692 4732
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<
+)
+"nano.ml" 171 4692 4733 "nano.ml" 171 4692 4734
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 171 4692 4717 "nano.ml" 171 4692 4718
+)
+"nano.ml" 171 4692 4728 "nano.ml" 171 4692 4735
+type(
+  bool
+)
+"nano.ml" 171 4692 4722 "nano.ml" 171 4692 4735
+type(
+  value
+)
+"nano.ml" 172 4736 4749 "nano.ml" 172 4736 4750
+type(
+  int
+)
+ident(
+  def x "nano.ml" 172 4736 4766 "nano.ml" 172 4736 4780
+)
+"nano.ml" 172 4736 4744 "nano.ml" 172 4736 4750
+type(
+  value
+)
+"nano.ml" 172 4736 4752 "nano.ml" 172 4736 4754
+type(
+  binary_operator
+)
+"nano.ml" 172 4736 4761 "nano.ml" 172 4736 4762
+type(
+  int
+)
+ident(
+  def y "nano.ml" 172 4736 4766 "nano.ml" 172 4736 4780
+)
+"nano.ml" 172 4736 4756 "nano.ml" 172 4736 4762
+type(
+  value
+)
+"nano.ml" 172 4736 4744 "nano.ml" 172 4736 4762
+type(
+  value * binary_operator * value
+)
+"nano.ml" 172 4736 4773 "nano.ml" 172 4736 4774
+type(
+  int
+)
+ident(
+  int_ref x "nano.ml" 172 4736 4749 "nano.ml" 172 4736 4750
+)
+"nano.ml" 172 4736 4775 "nano.ml" 172 4736 4777
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"nano.ml" 172 4736 4778 "nano.ml" 172 4736 4779
+type(
+  int
+)
+ident(
+  int_ref y "nano.ml" 172 4736 4761 "nano.ml" 172 4736 4762
+)
+"nano.ml" 172 4736 4772 "nano.ml" 172 4736 4780
+type(
+  bool
+)
+"nano.ml" 172 4736 4766 "nano.ml" 172 4736 4780
+type(
+  value
+)
+"nano.ml" 173 4781 4795 "nano.ml" 173 4781 4796
+type(
+  bool
+)
+ident(
+  def x "nano.ml" 173 4781 4814 "nano.ml" 173 4781 4828
+)
+"nano.ml" 173 4781 4789 "nano.ml" 173 4781 4796
+type(
+  value
+)
+"nano.ml" 173 4781 4798 "nano.ml" 173 4781 4801
+type(
+  binary_operator
+)
+"nano.ml" 173 4781 4809 "nano.ml" 173 4781 4810
+type(
+  bool
+)
+ident(
+  def y "nano.ml" 173 4781 4814 "nano.ml" 173 4781 4828
+)
+"nano.ml" 173 4781 4803 "nano.ml" 173 4781 4810
+type(
+  value
+)
+"nano.ml" 173 4781 4789 "nano.ml" 173 4781 4810
+type(
+  value * binary_operator * value
+)
+"nano.ml" 173 4781 4821 "nano.ml" 173 4781 4822
+type(
+  bool
+)
+ident(
+  int_ref x "nano.ml" 173 4781 4795 "nano.ml" 173 4781 4796
+)
+"nano.ml" 173 4781 4823 "nano.ml" 173 4781 4825
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.&&
+)
+"nano.ml" 173 4781 4826 "nano.ml" 173 4781 4827
+type(
+  bool
+)
+ident(
+  int_ref y "nano.ml" 173 4781 4809 "nano.ml" 173 4781 4810
+)
+"nano.ml" 173 4781 4820 "nano.ml" 173 4781 4828
+type(
+  bool
+)
+"nano.ml" 173 4781 4814 "nano.ml" 173 4781 4828
+type(
+  value
+)
+"nano.ml" 174 4829 4843 "nano.ml" 174 4829 4844
+type(
+  bool
+)
+ident(
+  def x "nano.ml" 174 4829 4861 "nano.ml" 174 4829 4875
+)
+"nano.ml" 174 4829 4837 "nano.ml" 174 4829 4844
+type(
+  value
+)
+"nano.ml" 174 4829 4846 "nano.ml" 174 4829 4848
+type(
+  binary_operator
+)
+"nano.ml" 174 4829 4856 "nano.ml" 174 4829 4857
+type(
+  bool
+)
+ident(
+  def y "nano.ml" 174 4829 4861 "nano.ml" 174 4829 4875
+)
+"nano.ml" 174 4829 4850 "nano.ml" 174 4829 4857
+type(
+  value
+)
+"nano.ml" 174 4829 4837 "nano.ml" 174 4829 4857
+type(
+  value * binary_operator * value
+)
+"nano.ml" 174 4829 4868 "nano.ml" 174 4829 4869
+type(
+  bool
+)
+ident(
+  int_ref x "nano.ml" 174 4829 4843 "nano.ml" 174 4829 4844
+)
+"nano.ml" 174 4829 4870 "nano.ml" 174 4829 4872
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"nano.ml" 174 4829 4873 "nano.ml" 174 4829 4874
+type(
+  bool
+)
+ident(
+  int_ref y "nano.ml" 174 4829 4856 "nano.ml" 174 4829 4857
+)
+"nano.ml" 174 4829 4867 "nano.ml" 174 4829 4875
+type(
+  bool
+)
+"nano.ml" 174 4829 4861 "nano.ml" 174 4829 4875
+type(
+  value
+)
+"nano.ml" 175 4876 4884 "nano.ml" 175 4876 4885
+type(
+  value
+)
+ident(
+  def x "nano.ml" 175 4876 4898 "nano.ml" 175 4876 4910
+)
+"nano.ml" 175 4876 4887 "nano.ml" 175 4876 4891
+type(
+  binary_operator
+)
+"nano.ml" 175 4876 4893 "nano.ml" 175 4876 4894
+type(
+  value
+)
+ident(
+  def y "nano.ml" 175 4876 4898 "nano.ml" 175 4876 4910
+)
+"nano.ml" 175 4876 4884 "nano.ml" 175 4876 4894
+type(
+  value * binary_operator * value
+)
+"nano.ml" 175 4876 4905 "nano.ml" 175 4876 4906
+type(
+  value
+)
+ident(
+  int_ref x "nano.ml" 175 4876 4884 "nano.ml" 175 4876 4885
+)
+"nano.ml" 175 4876 4908 "nano.ml" 175 4876 4909
+type(
+  value
+)
+ident(
+  int_ref y "nano.ml" 175 4876 4893 "nano.ml" 175 4876 4894
+)
+"nano.ml" 175 4876 4898 "nano.ml" 175 4876 4910
+type(
+  value
+)
+"nano.ml" 176 4911 4919 "nano.ml" 176 4911 4920
+type(
+  value * binary_operator * value
+)
+"nano.ml" 176 4911 4924 "nano.ml" 176 4911 4929
+type(
+  exn -> value
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"nano.ml" 176 4911 4946 "nano.ml" 176 4911 4985
+type(
+  string
+)
+"nano.ml" 176 4911 4930 "nano.ml" 176 4911 4986
+type(
+  exn
+)
+"nano.ml" 176 4911 4924 "nano.ml" 176 4911 4986
+type(
+  value
+)
+"nano.ml" 162 4303 4309 "nano.ml" 176 4911 4986
+type(
+  value
+)
+"nano.ml" 161 4271 4277 "nano.ml" 176 4911 4986
+type(
+  value
+)
+"nano.ml" 160 4239 4244 "nano.ml" 176 4911 4987
+type(
+  value
+)
+"nano.ml" 177 4988 4996 "nano.ml" 177 4988 4998
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 178 5012 5017 "nano.ml" 180 5108 5174
+)
+"nano.ml" 177 4988 5000 "nano.ml" 177 4988 5002
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 178 5012 5017 "nano.ml" 180 5108 5174
+)
+"nano.ml" 177 4988 5004 "nano.ml" 177 4988 5006
+type(
+  expr
+)
+ident(
+  def e3 "nano.ml" 178 5012 5017 "nano.ml" 180 5108 5174
+)
+"nano.ml" 177 4988 4992 "nano.ml" 177 4988 5007
+type(
+  expr
+)
+"nano.ml" 178 5012 5024 "nano.ml" 178 5012 5028
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 178 5012 5030 "nano.ml" 178 5012 5033
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 178 5012 5035 "nano.ml" 178 5012 5037
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 177 4988 4996 "nano.ml" 177 4988 4998
+)
+"nano.ml" 178 5012 5029 "nano.ml" 178 5012 5038
+type(
+  env * expr
+)
+"nano.ml" 178 5012 5024 "nano.ml" 178 5012 5038
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 179 5044 5058 "nano.ml" 179 5044 5059
+type(
+  bool
+)
+ident(
+  def b "nano.ml" 179 5044 5063 "nano.ml" 179 5044 5107
+)
+"nano.ml" 179 5044 5052 "nano.ml" 179 5044 5059
+type(
+  value
+)
+"nano.ml" 179 5044 5066 "nano.ml" 179 5044 5067
+type(
+  bool
+)
+ident(
+  int_ref b "nano.ml" 179 5044 5058 "nano.ml" 179 5044 5059
+)
+"nano.ml" 179 5044 5073 "nano.ml" 179 5044 5077
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 179 5044 5079 "nano.ml" 179 5044 5082
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 179 5044 5084 "nano.ml" 179 5044 5086
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 177 4988 5000 "nano.ml" 177 4988 5002
+)
+"nano.ml" 179 5044 5078 "nano.ml" 179 5044 5087
+type(
+  env * expr
+)
+"nano.ml" 179 5044 5073 "nano.ml" 179 5044 5087
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 179 5044 5093 "nano.ml" 179 5044 5097
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 179 5044 5099 "nano.ml" 179 5044 5102
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 179 5044 5104 "nano.ml" 179 5044 5106
+type(
+  expr
+)
+ident(
+  int_ref e3 "nano.ml" 177 4988 5004 "nano.ml" 177 4988 5006
+)
+"nano.ml" 179 5044 5098 "nano.ml" 179 5044 5107
+type(
+  env * expr
+)
+"nano.ml" 179 5044 5093 "nano.ml" 179 5044 5107
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 179 5044 5063 "nano.ml" 179 5044 5107
+type(
+  value
+)
+"nano.ml" 180 5108 5116 "nano.ml" 180 5108 5117
+type(
+  value
+)
+"nano.ml" 180 5108 5121 "nano.ml" 180 5108 5126
+type(
+  exn -> value
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"nano.ml" 180 5108 5143 "nano.ml" 180 5108 5172
+type(
+  string
+)
+"nano.ml" 180 5108 5127 "nano.ml" 180 5108 5173
+type(
+  exn
+)
+"nano.ml" 180 5108 5121 "nano.ml" 180 5108 5173
+type(
+  value
+)
+"nano.ml" 178 5012 5017 "nano.ml" 180 5108 5174
+type(
+  value
+)
+"nano.ml" 181 5175 5184 "nano.ml" 181 5175 5187
+type(
+  string
+)
+ident(
+  def str "nano.ml" 182 5201 5206 "nano.ml" 182 5201 5267
+)
+"nano.ml" 181 5175 5189 "nano.ml" 181 5175 5191
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 182 5201 5206 "nano.ml" 182 5201 5267
+)
+"nano.ml" 181 5175 5193 "nano.ml" 181 5175 5195
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 182 5201 5206 "nano.ml" 182 5201 5267
+)
+"nano.ml" 181 5175 5179 "nano.ml" 181 5175 5196
+type(
+  expr
+)
+"nano.ml" 182 5201 5211 "nano.ml" 182 5201 5217
+type(
+  (string * value) list
+)
+"nano.ml" 182 5201 5221 "nano.ml" 182 5201 5224
+type(
+  string
+)
+ident(
+  int_ref str "nano.ml" 181 5175 5184 "nano.ml" 181 5175 5187
+)
+"nano.ml" 182 5201 5226 "nano.ml" 182 5201 5230
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 182 5201 5231 "nano.ml" 182 5201 5234
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 182 5201 5236 "nano.ml" 182 5201 5238
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 181 5175 5189 "nano.ml" 181 5175 5191
+)
+"nano.ml" 182 5201 5230 "nano.ml" 182 5201 5239
+type(
+  env * expr
+)
+"nano.ml" 182 5201 5226 "nano.ml" 182 5201 5239
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 182 5201 5220 "nano.ml" 182 5201 5240
+type(
+  string * value
+)
+"nano.ml" 182 5201 5242 "nano.ml" 182 5201 5245
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 182 5201 5220 "nano.ml" 182 5201 5245
+type(
+  (string * value) list
+)
+"nano.ml" 182 5201 5249 "nano.ml" 182 5201 5253
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 182 5201 5255 "nano.ml" 182 5201 5261
+type(
+  env
+)
+ident(
+  int_ref newEnv "nano.ml" 182 5201 5211 "nano.ml" 182 5201 5217
+)
+"nano.ml" 182 5201 5263 "nano.ml" 182 5201 5265
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 181 5175 5193 "nano.ml" 181 5175 5195
+)
+"nano.ml" 182 5201 5254 "nano.ml" 182 5201 5266
+type(
+  env * expr
+)
+"nano.ml" 182 5201 5249 "nano.ml" 182 5201 5266
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 182 5201 5206 "nano.ml" 182 5201 5267
+type(
+  value
+)
+"nano.ml" 183 5268 5280 "nano.ml" 183 5268 5283
+type(
+  string
+)
+ident(
+  def str "nano.ml" 184 5296 5301 "nano.ml" 188 5453 5510
+)
+"nano.ml" 183 5268 5285 "nano.ml" 183 5268 5287
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 184 5296 5301 "nano.ml" 188 5453 5510
+)
+"nano.ml" 183 5268 5289 "nano.ml" 183 5268 5291
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 184 5296 5301 "nano.ml" 188 5453 5510
+)
+"nano.ml" 183 5268 5272 "nano.ml" 183 5268 5292
+type(
+  expr
+)
+"nano.ml" 184 5296 5305 "nano.ml" 184 5296 5306
+type(
+  value
+)
+"nano.ml" 185 5310 5324 "nano.ml" 185 5310 5328
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 185 5310 5330 "nano.ml" 185 5310 5333
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 185 5310 5335 "nano.ml" 185 5310 5337
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 183 5268 5285 "nano.ml" 183 5268 5287
+)
+"nano.ml" 185 5310 5329 "nano.ml" 185 5310 5338
+type(
+  env * expr
+)
+"nano.ml" 185 5310 5324 "nano.ml" 185 5310 5338
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 186 5344 5363 "nano.ml" 186 5344 5366
+type(
+  env
+)
+ident(
+  def env "nano.ml" 186 5344 5386 "nano.ml" 186 5344 5419
+)
+"nano.ml" 186 5344 5368 "nano.ml" 186 5344 5372
+type(
+  string option
+)
+"nano.ml" 186 5344 5374 "nano.ml" 186 5344 5377
+type(
+  string
+)
+ident(
+  def arg "nano.ml" 186 5344 5386 "nano.ml" 186 5344 5419
+)
+"nano.ml" 186 5344 5379 "nano.ml" 186 5344 5381
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 186 5344 5386 "nano.ml" 186 5344 5419
+)
+"nano.ml" 186 5344 5354 "nano.ml" 186 5344 5382
+type(
+  value
+)
+"nano.ml" 186 5344 5396 "nano.ml" 186 5344 5399
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 186 5344 5363 "nano.ml" 186 5344 5366
+)
+"nano.ml" 186 5344 5406 "nano.ml" 186 5344 5409
+type(
+  string
+)
+ident(
+  int_ref str "nano.ml" 183 5268 5280 "nano.ml" 183 5268 5283
+)
+"nano.ml" 186 5344 5401 "nano.ml" 186 5344 5409
+type(
+  string option
+)
+"nano.ml" 186 5344 5411 "nano.ml" 186 5344 5414
+type(
+  string
+)
+ident(
+  int_ref arg "nano.ml" 186 5344 5374 "nano.ml" 186 5344 5377
+)
+"nano.ml" 186 5344 5416 "nano.ml" 186 5344 5418
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 186 5344 5379 "nano.ml" 186 5344 5381
+)
+"nano.ml" 186 5344 5386 "nano.ml" 186 5344 5419
+type(
+  value
+)
+"nano.ml" 187 5420 5430 "nano.ml" 187 5420 5431
+type(
+  value
+)
+"nano.ml" 187 5420 5435 "nano.ml" 187 5420 5439
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 187 5420 5441 "nano.ml" 187 5420 5444
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 187 5420 5446 "nano.ml" 187 5420 5448
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 183 5268 5285 "nano.ml" 183 5268 5287
+)
+"nano.ml" 187 5420 5440 "nano.ml" 187 5420 5449
+type(
+  env * expr
+)
+"nano.ml" 187 5420 5435 "nano.ml" 187 5420 5449
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 185 5310 5318 "nano.ml" 187 5420 5449
+type(
+  value
+)
+"nano.ml" 188 5453 5467 "nano.ml" 188 5453 5473
+type(
+  (string * value) list
+)
+"nano.ml" 188 5453 5477 "nano.ml" 188 5453 5480
+type(
+  string
+)
+ident(
+  int_ref str "nano.ml" 183 5268 5280 "nano.ml" 183 5268 5283
+)
+"nano.ml" 188 5453 5481 "nano.ml" 188 5453 5482
+type(
+  value
+)
+ident(
+  int_ref x "nano.ml" 184 5296 5305 "nano.ml" 184 5296 5306
+)
+"nano.ml" 188 5453 5476 "nano.ml" 188 5453 5483
+type(
+  string * value
+)
+"nano.ml" 188 5453 5485 "nano.ml" 188 5453 5488
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 188 5453 5476 "nano.ml" 188 5453 5488
+type(
+  (string * value) list
+)
+"nano.ml" 188 5453 5492 "nano.ml" 188 5453 5496
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 188 5453 5498 "nano.ml" 188 5453 5504
+type(
+  env
+)
+ident(
+  int_ref newEnv "nano.ml" 188 5453 5467 "nano.ml" 188 5453 5473
+)
+"nano.ml" 188 5453 5506 "nano.ml" 188 5453 5508
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 183 5268 5289 "nano.ml" 183 5268 5291
+)
+"nano.ml" 188 5453 5497 "nano.ml" 188 5453 5509
+type(
+  env * expr
+)
+"nano.ml" 188 5453 5492 "nano.ml" 188 5453 5509
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 188 5453 5458 "nano.ml" 188 5453 5510
+type(
+  value
+)
+"nano.ml" 184 5296 5301 "nano.ml" 188 5453 5510
+type(
+  value
+)
+"nano.ml" 189 5511 5520 "nano.ml" 189 5511 5522
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 193 5659 5664 "nano.ml" 208 6303 6308
+)
+"nano.ml" 189 5511 5524 "nano.ml" 189 5511 5526
+type(
+  expr
+)
+ident(
+  def e2 "nano.ml" 193 5659 5664 "nano.ml" 208 6303 6308
+)
+"nano.ml" 189 5511 5515 "nano.ml" 189 5511 5527
+type(
+  expr
+)
+"nano.ml" 193 5659 5671 "nano.ml" 193 5659 5673
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 189 5511 5520 "nano.ml" 189 5511 5522
+)
+"nano.ml" 194 5679 5690 "nano.ml" 194 5679 5694
+type(
+  string
+)
+"nano.ml" 194 5679 5686 "nano.ml" 194 5679 5694
+type(
+  expr
+)
+"nano.ml" 194 5679 5698 "nano.ml" 194 5679 5702
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 194 5679 5703 "nano.ml" 194 5679 5706
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 194 5679 5711 "nano.ml" 194 5679 5713
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 189 5511 5524 "nano.ml" 189 5511 5526
+)
+"nano.ml" 194 5679 5708 "nano.ml" 194 5679 5713
+type(
+  expr
+)
+"nano.ml" 194 5679 5702 "nano.ml" 194 5679 5714
+type(
+  env * expr
+)
+"nano.ml" 194 5679 5698 "nano.ml" 194 5679 5714
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 195 5715 5726 "nano.ml" 195 5715 5730
+type(
+  string
+)
+"nano.ml" 195 5715 5722 "nano.ml" 195 5715 5730
+type(
+  expr
+)
+"nano.ml" 195 5715 5734 "nano.ml" 195 5715 5738
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 195 5715 5739 "nano.ml" 195 5715 5742
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 195 5715 5747 "nano.ml" 195 5715 5749
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 189 5511 5524 "nano.ml" 189 5511 5526
+)
+"nano.ml" 195 5715 5744 "nano.ml" 195 5715 5749
+type(
+  expr
+)
+"nano.ml" 195 5715 5738 "nano.ml" 195 5715 5750
+type(
+  env * expr
+)
+"nano.ml" 195 5715 5734 "nano.ml" 195 5715 5750
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 196 5751 5758 "nano.ml" 196 5751 5759
+type(
+  expr
+)
+"nano.ml" 197 5763 5773 "nano.ml" 197 5763 5776
+type(
+  value
+)
+"nano.ml" 197 5763 5779 "nano.ml" 197 5763 5783
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 197 5763 5785 "nano.ml" 197 5763 5788
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 197 5763 5790 "nano.ml" 197 5763 5792
+type(
+  expr
+)
+ident(
+  int_ref e2 "nano.ml" 189 5511 5524 "nano.ml" 189 5511 5526
+)
+"nano.ml" 197 5763 5784 "nano.ml" 197 5763 5793
+type(
+  env * expr
+)
+"nano.ml" 197 5763 5779 "nano.ml" 197 5763 5793
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 198 5797 5811 "nano.ml" 198 5797 5815
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 198 5797 5817 "nano.ml" 198 5797 5820
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 198 5797 5822 "nano.ml" 198 5797 5824
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 189 5511 5520 "nano.ml" 189 5511 5522
+)
+"nano.ml" 198 5797 5816 "nano.ml" 198 5797 5825
+type(
+  env * expr
+)
+"nano.ml" 198 5797 5811 "nano.ml" 198 5797 5825
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 199 5831 5843 "nano.ml" 199 5831 5847
+type(
+  env
+)
+ident(
+  def env' "nano.ml" 202 5993 5996 "nano.ml" 202 5993 6035
+)
+"nano.ml" 199 5831 5849 "nano.ml" 199 5831 5853
+type(
+  string option
+)
+"nano.ml" 199 5831 5855 "nano.ml" 199 5831 5864
+type(
+  string
+)
+ident(
+  def formalArg "nano.ml" 202 5993 5996 "nano.ml" 202 5993 6035
+)
+"nano.ml" 199 5831 5866 "nano.ml" 199 5831 5867
+type(
+  expr
+)
+ident(
+  def a "nano.ml" 202 5993 5996 "nano.ml" 202 5993 6035
+)
+"nano.ml" 199 5831 5834 "nano.ml" 199 5831 5868
+type(
+  value
+)
+"nano.ml" 202 5993 5996 "nano.ml" 202 5993 6000
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 202 5993 6002 "nano.ml" 202 5993 6011
+type(
+  string
+)
+ident(
+  int_ref formalArg "nano.ml" 199 5831 5855 "nano.ml" 199 5831 5864
+)
+"nano.ml" 202 5993 6013 "nano.ml" 202 5993 6016
+type(
+  value
+)
+ident(
+  int_ref arg "nano.ml" 197 5763 5773 "nano.ml" 197 5763 5776
+)
+"nano.ml" 202 5993 6001 "nano.ml" 202 5993 6017
+type(
+  string * value
+)
+"nano.ml" 202 5993 6021 "nano.ml" 202 5993 6025
+type(
+  env
+)
+ident(
+  int_ref env' "nano.ml" 199 5831 5843 "nano.ml" 199 5831 5847
+)
+"nano.ml" 202 5993 6001 "nano.ml" 202 5993 6025
+type(
+  (string * value) list
+)
+"nano.ml" 202 5993 6026 "nano.ml" 202 5993 6027
+type(
+  (string * value) list -> env -> env
+)
+ident(
+  ext_ref Pervasives.@
+)
+"nano.ml" 202 5993 6028 "nano.ml" 202 5993 6031
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 202 5993 6001 "nano.ml" 202 5993 6031
+call(
+  stack
+)
+type(
+  env
+)
+"nano.ml" 202 5993 6033 "nano.ml" 202 5993 6034
+type(
+  expr
+)
+ident(
+  int_ref a "nano.ml" 199 5831 5866 "nano.ml" 199 5831 5867
+)
+"nano.ml" 202 5993 6000 "nano.ml" 202 5993 6035
+type(
+  env * expr
+)
+"nano.ml" 202 5993 5996 "nano.ml" 202 5993 6035
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 203 6038 6050 "nano.ml" 203 6038 6054
+type(
+  env
+)
+ident(
+  def env' "nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+)
+"nano.ml" 203 6038 6061 "nano.ml" 203 6038 6062
+type(
+  string
+)
+ident(
+  def n "nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+)
+"nano.ml" 203 6038 6056 "nano.ml" 203 6038 6062
+type(
+  string option
+)
+"nano.ml" 203 6038 6064 "nano.ml" 203 6038 6073
+type(
+  string
+)
+ident(
+  def formalArg "nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+)
+"nano.ml" 203 6038 6075 "nano.ml" 203 6038 6076
+type(
+  expr
+)
+ident(
+  def a "nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+)
+"nano.ml" 203 6038 6041 "nano.ml" 203 6038 6077
+type(
+  value
+)
+"nano.ml" 203 6038 6041 "nano.ml" 203 6038 6082
+type(
+  value
+)
+ident(
+  def f "nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+)
+"nano.ml" 206 6201 6206 "nano.ml" 206 6201 6210
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 206 6201 6212 "nano.ml" 206 6201 6221
+type(
+  string
+)
+ident(
+  int_ref formalArg "nano.ml" 203 6038 6064 "nano.ml" 203 6038 6073
+)
+"nano.ml" 206 6201 6223 "nano.ml" 206 6201 6226
+type(
+  value
+)
+ident(
+  int_ref arg "nano.ml" 197 5763 5773 "nano.ml" 197 5763 5776
+)
+"nano.ml" 206 6201 6211 "nano.ml" 206 6201 6227
+type(
+  string * value
+)
+"nano.ml" 206 6201 6230 "nano.ml" 206 6201 6231
+type(
+  string
+)
+ident(
+  int_ref n "nano.ml" 203 6038 6061 "nano.ml" 203 6038 6062
+)
+"nano.ml" 206 6201 6233 "nano.ml" 206 6201 6234
+type(
+  value
+)
+ident(
+  int_ref f "nano.ml" 203 6038 6041 "nano.ml" 203 6038 6082
+)
+"nano.ml" 206 6201 6229 "nano.ml" 206 6201 6235
+type(
+  string * value
+)
+"nano.ml" 206 6201 6237 "nano.ml" 206 6201 6241
+type(
+  env
+)
+ident(
+  int_ref env' "nano.ml" 203 6038 6050 "nano.ml" 203 6038 6054
+)
+"nano.ml" 206 6201 6229 "nano.ml" 206 6201 6241
+type(
+  (string * value) list
+)
+"nano.ml" 206 6201 6211 "nano.ml" 206 6201 6241
+type(
+  (string * value) list
+)
+"nano.ml" 206 6201 6242 "nano.ml" 206 6201 6243
+type(
+  (string * value) list -> env -> env
+)
+ident(
+  ext_ref Pervasives.@
+)
+"nano.ml" 206 6201 6244 "nano.ml" 206 6201 6247
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 206 6201 6211 "nano.ml" 206 6201 6247
+call(
+  stack
+)
+type(
+  env
+)
+"nano.ml" 206 6201 6249 "nano.ml" 206 6201 6250
+type(
+  expr
+)
+ident(
+  int_ref a "nano.ml" 203 6038 6075 "nano.ml" 203 6038 6076
+)
+"nano.ml" 206 6201 6210 "nano.ml" 206 6201 6251
+type(
+  env * expr
+)
+"nano.ml" 206 6201 6206 "nano.ml" 206 6201 6251
+call(
+  tail
+)
+type(
+  value
+)
+"nano.ml" 207 6252 6255 "nano.ml" 207 6252 6256
+type(
+  value
+)
+"nano.ml" 207 6252 6260 "nano.ml" 207 6252 6265
+type(
+  exn -> value
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"nano.ml" 207 6252 6282 "nano.ml" 207 6252 6300
+type(
+  string
+)
+"nano.ml" 207 6252 6266 "nano.ml" 207 6252 6301
+type(
+  exn
+)
+"nano.ml" 207 6252 6260 "nano.ml" 207 6252 6301
+type(
+  value
+)
+"nano.ml" 198 5797 5805 "nano.ml" 207 6252 6301
+type(
+  value
+)
+"nano.ml" 197 5763 5768 "nano.ml" 207 6252 6302
+type(
+  value
+)
+"nano.ml" 193 5659 5664 "nano.ml" 208 6303 6308
+type(
+  value
+)
+"nano.ml" 209 6309 6318 "nano.ml" 209 6309 6327
+type(
+  string
+)
+ident(
+  def formalArg "nano.ml" 209 6309 6336 "nano.ml" 209 6309 6370
+)
+"nano.ml" 209 6309 6329 "nano.ml" 209 6309 6331
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 209 6309 6336 "nano.ml" 209 6309 6370
+)
+"nano.ml" 209 6309 6313 "nano.ml" 209 6309 6332
+type(
+  expr
+)
+"nano.ml" 209 6309 6345 "nano.ml" 209 6309 6348
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 209 6309 6350 "nano.ml" 209 6309 6354
+type(
+  string option
+)
+"nano.ml" 209 6309 6356 "nano.ml" 209 6309 6365
+type(
+  string
+)
+ident(
+  int_ref formalArg "nano.ml" 209 6309 6318 "nano.ml" 209 6309 6327
+)
+"nano.ml" 209 6309 6367 "nano.ml" 209 6309 6369
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 209 6309 6329 "nano.ml" 209 6309 6331
+)
+"nano.ml" 209 6309 6336 "nano.ml" 209 6309 6370
+type(
+  value
+)
+"nano.ml" 211 6411 6418 "nano.ml" 211 6411 6420
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 212 6424 6429 "nano.ml" 213 6456 6482
+)
+"nano.ml" 211 6411 6415 "nano.ml" 211 6411 6420
+type(
+  expr
+)
+"nano.ml" 212 6424 6436 "nano.ml" 212 6424 6440
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 212 6424 6442 "nano.ml" 212 6424 6445
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 212 6424 6447 "nano.ml" 212 6424 6449
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 211 6411 6418 "nano.ml" 211 6411 6420
+)
+"nano.ml" 212 6424 6441 "nano.ml" 212 6424 6450
+type(
+  env * expr
+)
+"nano.ml" 212 6424 6436 "nano.ml" 212 6424 6450
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 213 6456 6471 "nano.ml" 213 6456 6472
+type(
+  value
+)
+ident(
+  def x "nano.ml" 213 6456 6480 "nano.ml" 213 6456 6481
+)
+"nano.ml" 213 6456 6474 "nano.ml" 213 6456 6475
+type(
+  value
+)
+ident(
+  def y "nano.ml" 213 6456 6480 "nano.ml" 213 6456 6481
+)
+"nano.ml" 213 6456 6464 "nano.ml" 213 6456 6476
+type(
+  value
+)
+"nano.ml" 213 6456 6480 "nano.ml" 213 6456 6481
+type(
+  value
+)
+ident(
+  int_ref x "nano.ml" 213 6456 6471 "nano.ml" 213 6456 6472
+)
+"nano.ml" 212 6424 6429 "nano.ml" 213 6456 6482
+type(
+  value
+)
+"nano.ml" 214 6483 6490 "nano.ml" 214 6483 6492
+type(
+  expr
+)
+ident(
+  def e1 "nano.ml" 215 6497 6502 "nano.ml" 216 6529 6555
+)
+"nano.ml" 214 6483 6487 "nano.ml" 214 6483 6492
+type(
+  expr
+)
+"nano.ml" 215 6497 6509 "nano.ml" 215 6497 6513
+type(
+  env * expr -> value
+)
+ident(
+  int_ref eval "nano.ml" 154 4098 4106 "nano.ml" 154 4098 4110
+)
+"nano.ml" 215 6497 6515 "nano.ml" 215 6497 6518
+type(
+  env
+)
+ident(
+  int_ref env "nano.ml" 154 4098 4112 "nano.ml" 154 4098 4115
+)
+"nano.ml" 215 6497 6520 "nano.ml" 215 6497 6522
+type(
+  expr
+)
+ident(
+  int_ref e1 "nano.ml" 214 6483 6490 "nano.ml" 214 6483 6492
+)
+"nano.ml" 215 6497 6514 "nano.ml" 215 6497 6523
+type(
+  env * expr
+)
+"nano.ml" 215 6497 6509 "nano.ml" 215 6497 6523
+call(
+  stack
+)
+type(
+  value
+)
+"nano.ml" 216 6529 6544 "nano.ml" 216 6529 6545
+type(
+  value
+)
+ident(
+  def x "nano.ml" 216 6529 6553 "nano.ml" 216 6529 6554
+)
+"nano.ml" 216 6529 6547 "nano.ml" 216 6529 6548
+type(
+  value
+)
+ident(
+  def y "nano.ml" 216 6529 6553 "nano.ml" 216 6529 6554
+)
+"nano.ml" 216 6529 6537 "nano.ml" 216 6529 6549
+type(
+  value
+)
+"nano.ml" 216 6529 6553 "nano.ml" 216 6529 6554
+type(
+  value
+)
+ident(
+  int_ref y "nano.ml" 216 6529 6547 "nano.ml" 216 6529 6548
+)
+"nano.ml" 215 6497 6502 "nano.ml" 216 6529 6555
+type(
+  value
+)
+"nano.ml" 217 6557 6561 "nano.ml" 217 6557 6564
+type(
+  expr
+)
+"nano.ml" 217 6557 6568 "nano.ml" 217 6557 6572
+type(
+  value
+)
+"nano.ml" 219 6574 6578 "nano.ml" 219 6574 6579
+type(
+  expr
+)
+"nano.ml" 219 6574 6583 "nano.ml" 219 6574 6588
+type(
+  exn -> value
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"nano.ml" 219 6574 6606 "nano.ml" 219 6574 6631
+type(
+  string
+)
+"nano.ml" 219 6574 6589 "nano.ml" 219 6574 6632
+type(
+  exn
+)
+"nano.ml" 219 6574 6583 "nano.ml" 219 6574 6632
+type(
+  value
+)
+"nano.ml" 155 4122 4124 "nano.ml" 219 6574 6632
+type(
+  value
+)
